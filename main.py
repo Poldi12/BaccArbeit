@@ -5,18 +5,30 @@ import color_graph_networkx
 
 print("starting program...")
 
-r: int = 1 #later change to input{"Enter rounds:"}
-m: int = 3
-d: int = 2
-
+# "Errorhandler"
 return_value = 0
 
-if(return_value == 0):
-    return_value += generate_graph.generateNeighborhoodGraph(r, m, d)
+# Input parameters for generating graphs
+r: int = 1 #rounds #later change to input{"Enter rounds:"}
+m: int = 3 #max color
+d: int = 2 #degree
 
-"""
+if (d >= m):
+        print("invalid input for generating valid Neighbourhoodgraph\n (Check max degree and number of colors input)")
+        return_value += 1
+
+# Nested list containing generated graphs
+all_graphs_list = []
+
+# Call functions
+################
+
 if(return_value == 0):
-    color_graph_networkx.colorGraph()
-"""
+    return_value += generate_graph.generateNeighborhoodGraph(r, m, d, all_graphs_list)
+
+
+if(return_value == 0):
+    return_value += color_graph_networkx.colorGraph(all_graphs_list)
+
 
 #print("ret_val: " + str(return_value))
