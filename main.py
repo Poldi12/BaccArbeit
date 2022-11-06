@@ -18,17 +18,17 @@ if (d >= m):
         return_value += 1
 
 # Nested list containing generated graphs
-all_graphs_list = []
+all_balls_list = []
 
 # Call functions
 ################
 
 if(return_value == 0):
-    return_value += generate_graph.generateNeighborhoodGraph(r, m, d, all_graphs_list)
+    return_value += generate_graph.generateNeighborhoodGraph(r, m, d, all_balls_list)
 
-
+"""
 if(return_value == 0):
-    return_value += color_graph_networkx.colorGraph(all_graphs_list)
-
+    return_value += color_graph_networkx.ausgabefaerbung(all_balls_list):
+"""
 
 #print("ret_val: " + str(return_value))

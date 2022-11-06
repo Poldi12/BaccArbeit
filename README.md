@@ -1,5 +1,5 @@
 # BaccArbeit
 # Work in Progress
 
-generate_graph: outsource print graph, graph generation with nodes and edges working
-color_graph_ntwork: not yet working properly
+generate_graph: reworking graph generation (right amount of delta regular graphs, colored properly for neighborhood graph)
+color_graph_ntwork: seperation in eingabefaerbung()(implemntation in progress) and ausgabefaerbung()

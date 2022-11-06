@@ -1,19 +1,14 @@
 
 import networkx
-import numpy
-import matplotlib.pyplot as plt
+import helpers
+import color_graph_networkx
 
-
-def generateNeighborhoodGraph(rounds: int, max_colour: int, max_degree: int, all_graphs_list: list):
+def generateNeighborhoodGraph(rounds: int, max_colour: int, degree: int, all_balls_list: list):
     #print("generateNeighborhoodGraph\n rounds:" + str(rounds) +"\n max_colour:"+ str(max_colour)+"\n max_edges:"+ str(max_degree))
 
-    #fill graphs list with degree categories lists
-    for degree in range(max_degree+1):
-        degree_graphs_list = []
-        all_graphs_list.append(degree_graphs_list)
+    #fill list with graphs of all legit coloring patterns for neighborhood graphs
+    for i in range(degree+1): #amount of possible color patterns
 
-        #generate the graphs (determine how much graphs we need for given degree and max color)
-        for color in range(max_colour * 2):
             network = networkx.Graph()
 
             #add the nodes to the graph
@@ -25,22 +20,11 @@ def generateNeighborhoodGraph(rounds: int, max_colour: int, max_degree: int, all
                 network.add_edge(0,edge+1)
 
             #color graph
-
+            #color_graph_networkx.eingabefaerbung()
 
             #add final graph    
-            all_graphs_list[degree].append(network)
+            all_balls_list.append(network)
 
-    print_graph(all_graphs_list, 2,2)
+    helpers.print_ball_(all_balls_list, 0)
 
     return 0
-
-#print selected graph (maybe more fuctionality in the future)
-def print_graph(all_graphs_list, degree, coloring):
-
-    print_network = all_graphs_list[degree][coloring]
-    networkx.draw_networkx(print_network, with_labels=True)
-
-    ax = plt.gca()
-    ax.margins(0.10)
-    plt.axis("on")
-    plt.show()
