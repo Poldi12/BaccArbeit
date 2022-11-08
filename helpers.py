@@ -1,5 +1,7 @@
 import networkx
 import matplotlib.pyplot as plt
+from enum import Enum
+
 
 #print selected graph (maybe more fuctionality in the future)
 def print_ball_(all_balls_list, position):
@@ -11,3 +13,7 @@ def print_ball_(all_balls_list, position):
     ax.margins(0.10)
     plt.axis("on")
     plt.show()
+
+# enum to select, how graphs are generated and colored
+class Strategy(Enum):
+    Distribute_Colors = 0

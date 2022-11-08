@@ -1,7 +1,8 @@
 # This is the main file calling the functions
 
-import generate_graph
-import color_graph_networkx
+import generate_NH_graph
+import color_networkx
+import helpers
 
 print("starting program...")
 
@@ -24,11 +25,11 @@ all_balls_list = []
 ################
 
 if(return_value == 0):
-    return_value += generate_graph.generateNeighborhoodGraph(r, m, d, all_balls_list)
+    return_value += generate_NH_graph.generateNeighborhoodGraph(r, m, d, all_balls_list)
 
 """
 if(return_value == 0):
-    return_value += color_graph_networkx.ausgabefaerbung(all_balls_list):
+    return_value += color_networkx.ausgabefaerbung(all_balls_list):
 """
 
-#print("ret_val: " + str(return_value))
+print("ret_val: " + str(return_value))
