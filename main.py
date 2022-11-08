@@ -6,8 +6,15 @@ import helpers
 
 print("starting program...")
 
+
+# Variables
+################
+
 # "Errorhandler"
 return_value = 0
+
+#points to NH_Graph
+NH_graph_reference = [] 
 
 # Input parameters for generating graphs
 r: int = 1 #rounds #later change to input{"Enter rounds:"}
@@ -18,18 +25,12 @@ if (d >= m):
         print("invalid input for generating valid Neighbourhoodgraph\n (Check max degree and number of colors input)")
         return_value += 1
 
-# Nested list containing generated graphs
-all_balls_list = []
+
 
 # Call functions
 ################
 
 if(return_value == 0):
-    return_value += generate_NH_graph.generateNeighborhoodGraph(r, m, d, all_balls_list)
-
-"""
-if(return_value == 0):
-    return_value += color_networkx.ausgabefaerbung(all_balls_list):
-"""
+    return_value += generate_NH_graph.generateNeighborhoodGraph(r, m, d, NH_graph_reference)
 
 print("ret_val: " + str(return_value))

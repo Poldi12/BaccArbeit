@@ -2,33 +2,51 @@
 import networkx
 import helpers
 import color_networkx
+from dataclasses import dataclass
 
-def generateNeighborhoodGraph(rounds: int, max_colour: int, degree: int, all_balls_list: list):
+@dataclass
+class LocalView:
+    my_color: int
+    neighbor_colors = []
+    can_be_adjacent: bool
+
+@dataclass
+class Ball:
+    mylocalview: LocalView
+
+@dataclass
+class NHGraph:
+    SetOfBall = []
+
+def generateNeighborhoodGraph(rounds: int, max_color: int, degree: int, NH_graph: list):
     #print("generateNeighborhoodGraph\n rounds:" + str(rounds) +"\n max_colour:"+ str(max_colour)+"\n max_edges:"+ str(max_degree))
 
-    # selects, how to generate and first color the graphs
-    match helpers.Strategy:
+    NHGraph_ = NHGraph
 
-        case Distribute_Colors:
-            #amount of balls
-            for i in range(degree+1): #amount of possible color patterns
+    #generate balls
+    for color in range(max_color):
 
-                network = networkx.Graph()
+        ball_ = Ball
+        ball_.mylocalview = LocalView
 
-                #add the nodes to the ball
-                for node in range(degree+1):
-                    network.add_node(node)
+        for combination in range(max_color):
+            ball_.mylocalview.my_color = color
 
-                #add edges between the nodes
-                for edge in range(degree):
-                    network.add_edge(0,edge+1)
+            #set neighbor colors
+            neighboroffset: int = 0
+            for neighbors in range(degree):
+                if(((neighbors + neighboroffset) != color) and ((neighbors + neighboroffset) <= max_color)):
+                    ball_.mylocalview.neighbor_colors.append(neighbors + neighboroffset)
+                neighboroffset += 1
 
-                #eingabefaerbung ball
-                #color_networkx.eingabefaerbung()
+        NHGraph_.SetOfBall.append(ball_)
 
-                #add final graph    
-                all_balls_list.append(network)
-
-    helpers.print_ball_(all_balls_list, 0)
-
+        print_NHGraph(NHGraph_)
     return 0
+
+def print_NHGraph(NHGraph: NHGraph):
+    for i in range(len(NHGraph.SetOfBall)):
+        print(str(NHGraph.SetOfBall[i].mylocalview.my_color) +"/n")
+        for j in range(len(NHGraph.SetOfBall[i].mylocalview.neighbor_colors)):
+            print(str(NHGraph.SetOfBall[i].mylocalview.neighbor_colors[j]) + " ")
+        print("/n")

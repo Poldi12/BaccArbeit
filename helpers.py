@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from enum import Enum
 
 
-#print selected graph (maybe more fuctionality in the future)
-def print_ball_(all_balls_list, position):
+#print networkx, currently not in use
+def print_networkx(all_balls_list, position):
 
     print_ball = all_balls_list[position]
     networkx.draw_networkx(print_ball, with_labels=True)
@@ -14,6 +14,10 @@ def print_ball_(all_balls_list, position):
     plt.axis("on")
     plt.show()
 
-# enum to select, how graphs are generated and colored
+# enum, currently not in use
 class Strategy(Enum):
     Distribute_Colors = 0
+
+
+    
+
