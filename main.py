@@ -5,6 +5,7 @@ import color_networkx
 import helpers
 
 print("starting program...")
+print("")
 
 
 # Variables
@@ -18,7 +19,7 @@ NH_graph_reference = []
 
 # Input parameters for generating graphs
 r: int = 1 #rounds #later change to input{"Enter rounds:"}
-m: int = 3 #max color
+m: int = 4 #max color
 d: int = 2 #degree
 
 if (d >= m):
@@ -33,4 +34,5 @@ if (d >= m):
 if(return_value == 0):
     return_value += generate_NH_graph.generateNeighborhoodGraph(r, m, d, NH_graph_reference)
 
+print("")
 print("ret_val: " + str(return_value))
