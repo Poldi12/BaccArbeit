@@ -35,42 +35,16 @@ def generateNeighborhoodGraph(rounds: int, max_color: int, degree: int, NH_graph
     """
     
     temp_nc_lst = []
+    for i in range(degree):
+        temp_nc_lst.append(-1)
+
+    current_degree = [-1]
 
     #generate all neighbors with my_color
     for mc in range(max_color):
 
-        for degree_ in range(degree):
-            used_lst = []
-            for nc_add in range(max_color):
-                
-                # search for duplicates in list
-                i = 0
-                do_not_set = 0
-                while (i < len(temp_nc_lst)):
-                    if(temp_nc_lst[i] == nc_add):
-                        do_not_set = 1
-                        break
-                    i += 1
-
-                if(not do_not_set):
-                    #if last neighbor is reached, add ball and stop
-                    if(degree_ == (degree -1)):
-                        temp_nc_lst.append(nc_add)
-
-                        ball_ = Ball()
-                        ball_.mylocalview = LocalView()
-                        ball_.mylocalview.neighbor_colors = []
-
-                        ball_.mylocalview.my_color = mc
-                        ball_.mylocalview.neighbor_colors = temp_nc_lst
-                        temp_nc_lst = []
-                        NH_graph.SetOfBall.append(ball_)
-                        break
-                    #still more neighbors to add
-                    temp_nc_lst.append(nc_add)
-                    break
-
-                current_nc += 1
+        rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+        
     """            
     # now delete nc if nc == mc
     for i in range(len(NH_graph.SetOfBall)):
@@ -128,3 +102,21 @@ def print_NHGraph(NHGraph: NHGraph):
             print(str(NHGraph.SetOfBall[i].mylocalview.neighbor_colors[j]) + " ", end = '')
         print("")
 
+def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
+    current_degree[0] += 1
+    for color in range(max_color+1):
+        temp_nc_lst[current_degree[0]] = color
+        if (current_degree[0] == (degree-1)):
+            ball_ = Ball()
+            ball_.mylocalview = LocalView()
+            ball_.mylocalview.neighbor_colors = []
+
+            ball_.mylocalview.my_color = mc
+            ball_.mylocalview.neighbor_colors = temp_nc_lst
+            NH_graph.SetOfBall.append(ball_)
+        else:
+            rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+        if (color == max_color):
+            current_degree[0] -= 1
+            break
+        
