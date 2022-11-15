@@ -14,10 +14,24 @@ def print_networkx(all_balls_list, position):
     plt.axis("on")
     plt.show()
 
+def print_NHGraph(NHGraph):
+    for i in range(len(NHGraph.SetOfBall)):
+        print("mc: " + str(NHGraph.SetOfBall[i].mylocalview.my_color) + "\n nc: ", end = '')
+        for j in range(len(NHGraph.SetOfBall[i].mylocalview.neighbor_colors)):
+            print(str(NHGraph.SetOfBall[i].mylocalview.neighbor_colors[j]) + " ", end = '')
+        print("")
+
+        # to turn off adjacent balls, comment below
+        
+        for k in range(len(NHGraph.SetOfBall[i].mylocalview.can_be_adjacent)):
+            current_adjacent_view = NHGraph.SetOfBall[i].mylocalview.can_be_adjacent[k].mylocalview
+            print(" cba mc: " + str(current_adjacent_view.my_color) + " nc: ", end = '')
+            for j in range(len(current_adjacent_view.neighbor_colors)):
+                print(str(current_adjacent_view.neighbor_colors[j]) + " ", end = '')
+            print("")
+        print("")
+        
+
 # enum, currently not in use
 class Strategy(Enum):
     Distribute_Colors = 0
-
-
-    
-

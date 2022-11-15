@@ -8,12 +8,7 @@ LocalView = contains >the color of the local node
                      >the colors of the neighbor nodes
                      >bool, if it can be adjacented with another ball
 
-generate_graph: > 1.Try: generating graphs with while and for loops ->
-                  getting too complex too soon, edge cases and duplicated
-                  get out of hand -> new approach needed
-                > 2.Try: dictionary with "My color" values and "Neighbor color" values for better results
-                  -> currently working on
+generate_graph: functioning for r=1 and regular balls (no duplicates)
 
 
-
-color_graph_ntwork: currently no further implementations
+color_networkx: currently no further implementations

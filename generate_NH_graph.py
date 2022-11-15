@@ -3,12 +3,13 @@ import networkx
 import helpers
 import color_networkx
 from dataclasses import dataclass
+import copy
 
 @dataclass
 class LocalView:
     my_color: int = None
     neighbor_colors = []
-    can_be_adjacent: bool = None
+    can_be_adjacent = []
 
 @dataclass
 class Ball:
@@ -34,15 +35,10 @@ def generateNeighborhoodGraph(rounds: int, max_color: int, degree: int, NH_graph
 
         rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
         
-    print_NHGraph(NH_graph)
-    return 0
+    can_be_adjacent(NHGraph)
 
-def print_NHGraph(NHGraph: NHGraph):
-    for i in range(len(NHGraph.SetOfBall)):
-        print("mc: " + str(NHGraph.SetOfBall[i].mylocalview.my_color) + "\n nc: ", end = '')
-        for j in range(len(NHGraph.SetOfBall[i].mylocalview.neighbor_colors)):
-            print(str(NHGraph.SetOfBall[i].mylocalview.neighbor_colors[j]) + " ", end = '')
-        print("")
+    helpers.print_NHGraph(NH_graph)
+    return 0
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
     current_degree[0] += 1
@@ -63,6 +59,7 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
                 ball_ = Ball()
                 ball_.mylocalview = LocalView()
                 ball_.mylocalview.neighbor_colors = []
+                ball_.mylocalview.can_be_adjacent = []
 
                 ball_.mylocalview.my_color = mc
                 for i in range(len(temp_nc_lst)):
@@ -77,3 +74,23 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
             current_degree[0] -= 1
             break
         
+def can_be_adjacent(NHGraph):
+    for ball in range(len(NHGraph.SetOfBall)):
+        current_view = NHGraph.SetOfBall[ball].mylocalview
+
+        #if((ball+1) != len(NHGraph.SetOfBall)): ball+1,
+        for nb in range(len(NHGraph.SetOfBall)):
+            for nc in range(len(NHGraph.SetOfBall[nb].mylocalview.neighbor_colors)):
+
+                break_again = 0
+                if(current_view.my_color == NHGraph.SetOfBall[nb].mylocalview.neighbor_colors[nc]):
+                    for mnc in range(len(current_view.neighbor_colors)):
+
+                        if(current_view.neighbor_colors[mnc] == NHGraph.SetOfBall[nb].mylocalview.my_color):
+
+                            current_view.can_be_adjacent.append(copy.deepcopy(NHGraph.SetOfBall[nb]))
+                            break_again = 1
+                            break
+
+                if(break_again):
+                        break
