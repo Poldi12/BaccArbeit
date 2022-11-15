@@ -112,7 +112,9 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
             ball_.mylocalview.neighbor_colors = []
 
             ball_.mylocalview.my_color = mc
-            ball_.mylocalview.neighbor_colors = temp_nc_lst
+            for i in range(len(temp_nc_lst)):
+                ball_.mylocalview.neighbor_colors.append(temp_nc_lst[i])
+    
             NH_graph.SetOfBall.append(ball_)
         else:
             rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
