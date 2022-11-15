@@ -20,7 +20,7 @@ NH_graph_reference = []
 # Input parameters for generating graphs
 r: int = 1 #rounds #later change to input{"Enter rounds:"}
 m: int = 4 #max color
-d: int = 3 #degree
+d: int = 2 #degree
 
 if (d >= m):
         print("invalid input for generating valid Neighbourhoodgraph\n (Check max degree and number of colors input)")

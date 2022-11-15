@@ -104,20 +104,29 @@ def print_NHGraph(NHGraph: NHGraph):
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
     current_degree[0] += 1
-    for color in range(max_color+1):
-        temp_nc_lst[current_degree[0]] = color
-        if (current_degree[0] == (degree-1)):
-            ball_ = Ball()
-            ball_.mylocalview = LocalView()
-            ball_.mylocalview.neighbor_colors = []
+    start = 0
+    if(current_degree[0] != 0):
+        start = temp_nc_lst[current_degree[0]-1]
 
-            ball_.mylocalview.my_color = mc
-            for i in range(len(temp_nc_lst)):
-                ball_.mylocalview.neighbor_colors.append(temp_nc_lst[i])
-    
-            NH_graph.SetOfBall.append(ball_)
+    for color in range(start,max_color+1):
+        skip = 0
+        if(color != mc):
+            temp_nc_lst[current_degree[0]] = color
         else:
-            rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+            skip = 1
+        if(not skip):
+            if (current_degree[0] == (degree-1)):
+                ball_ = Ball()
+                ball_.mylocalview = LocalView()
+                ball_.mylocalview.neighbor_colors = []
+
+                ball_.mylocalview.my_color = mc
+                for i in range(len(temp_nc_lst)):
+                    ball_.mylocalview.neighbor_colors.append(temp_nc_lst[i])
+    
+                NH_graph.SetOfBall.append(ball_)
+            else:
+                rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
         if (color == max_color):
             current_degree[0] -= 1
             break
