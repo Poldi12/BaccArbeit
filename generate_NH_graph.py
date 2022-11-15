@@ -19,21 +19,22 @@ class Ball:
 class NHGraph:
     SetOfBall = []
 
-def generateNeighborhoodGraph(rounds: int, max_color: int, degree: int, NH_graph: list):
+def generateNeighborhoodGraph(rounds: int, max_color: int, max_degree: int, NH_graph: list):
     #print("generateNeighborhoodGraph\n rounds:" + str(rounds) +"\n max_colour:"+ str(max_colour)+"\n max_edges:"+ str(max_degree))
 
     NH_graph = NHGraph()
 
-    temp_nc_lst = []
-    for i in range(degree):
-        temp_nc_lst.append(-1)
-
-    current_degree = [-1]
-
     #generate NH_graph rekursive
-    for mc in range(max_color+1):
+    for degree in range(1, max_degree+1):
 
-        rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+        for mc in range(max_color+1):
+
+            temp_nc_lst = []
+            for i in range(degree):
+                temp_nc_lst.append(-1)
+            current_degree = [-1]
+            
+            rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
         
     can_be_adjacent(NHGraph)
 
@@ -78,7 +79,7 @@ def can_be_adjacent(NHGraph):
     for ball in range(len(NHGraph.SetOfBall)):
         current_view = NHGraph.SetOfBall[ball].mylocalview
 
-        #if((ball+1) != len(NHGraph.SetOfBall)): ball+1,
+        #if((ball+1) != len(NHGraph.SetOfBall)): ball+1, only combine first found
         for nb in range(len(NHGraph.SetOfBall)):
             for nc in range(len(NHGraph.SetOfBall[nb].mylocalview.neighbor_colors)):
 
