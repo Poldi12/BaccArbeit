@@ -41,7 +41,7 @@ def generateNeighborhoodGraph(rounds: int, max_color: int, degree: int, NH_graph
     current_degree = [-1]
 
     #generate all neighbors with my_color
-    for mc in range(max_color):
+    for mc in range(max_color+1):
 
         rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
         
