@@ -2,7 +2,6 @@ import networkx
 import matplotlib.pyplot as plt
 from enum import Enum
 
-
 #print networkx, currently not in use
 def print_networkx(all_balls_list, position):
 

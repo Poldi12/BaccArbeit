@@ -6,9 +6,9 @@ NHGraph = contains list of Ball
 Ball = contains LocalView
 LocalView = contains >the color of the local node
                      >the colors of the neighbor nodes
-                     >bool, if it can be adjacented with another ball
+                     >list of balls, it can be adjacented with
 
 generate_graph: functioning for r=1 (no duplicates)
 
 
-color_networkx: currently no further implementations
+ausgabefaerbung: implementing variouse coloring algorithms, af_first only works, if 0 is a valid replacement for mc

@@ -1,7 +1,4 @@
-
-import networkx
 import helpers
-import color_networkx
 from dataclasses import dataclass
 import copy
 
@@ -24,7 +21,7 @@ def generateNeighborhoodGraph(rounds: int, max_color: int, max_degree: int, NH_g
 
     NH_graph = NHGraph()
 
-    #generate NH_graph rekursive
+    #generate NH_graph rekursive with "Eingabefaerbung"
     for degree in range(1, max_degree+1):
 
         for mc in range(max_color+1):
@@ -38,7 +35,7 @@ def generateNeighborhoodGraph(rounds: int, max_color: int, max_degree: int, NH_g
         
     can_be_adjacent(NHGraph)
 
-    helpers.print_NHGraph(NH_graph)
+    #helpers.print_NHGraph(NH_graph)
     return 0
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):

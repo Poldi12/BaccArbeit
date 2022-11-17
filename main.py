@@ -1,12 +1,10 @@
 # This is the main file calling the functions
-
 import generate_NH_graph
-import color_networkx
 import helpers
+import ausgabefaerbung
 
 print("starting program...")
 print("")
-
 
 # Variables
 ################
@@ -27,12 +25,14 @@ if (d >= m):
         return_value += 1
 
 
-
 # Call functions
 ################
 
 if(return_value == 0):
     return_value += generate_NH_graph.generateNeighborhoodGraph(r, m, d, NH_graph_reference)
+
+if(return_value == 0):
+    return_value += ausgabefaerbung.af_first(NH_graph_reference, m)
 
 print("")
 print("ret_val: " + str(return_value))
