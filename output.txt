@@ -1,0 +1,5010 @@
+mc: 0
+ nc: 1 
+ cba mc: 1 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+
+mc: 0
+ nc: 2 
+ cba mc: 2 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+
+mc: 0
+ nc: 3 
+ cba mc: 3 nc: 0 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 4 
+ cba mc: 4 nc: 0 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 1
+ nc: 0 
+ cba mc: 0 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+
+mc: 1
+ nc: 2 
+ cba mc: 2 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+
+mc: 1
+ nc: 3 
+ cba mc: 3 nc: 1 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 4 
+ cba mc: 4 nc: 1 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 2
+ nc: 0 
+ cba mc: 0 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+
+mc: 2
+ nc: 1 
+ cba mc: 1 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+
+mc: 2
+ nc: 3 
+ cba mc: 3 nc: 2 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 4 
+ cba mc: 4 nc: 2 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 3
+ nc: 0 
+ cba mc: 0 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+
+mc: 3
+ nc: 1 
+ cba mc: 1 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+
+mc: 3
+ nc: 2 
+ cba mc: 2 nc: 3 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 4 
+ cba mc: 4 nc: 3 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 4
+ nc: 0 
+ cba mc: 0 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+
+mc: 4
+ nc: 1 
+ cba mc: 1 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+
+mc: 4
+ nc: 2 
+ cba mc: 2 nc: 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 3 
+ cba mc: 3 nc: 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 0
+ nc: 1 1 
+ cba mc: 1 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+
+mc: 0
+ nc: 1 2 
+ cba mc: 1 nc: 0 
+ cba mc: 2 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+
+mc: 0
+ nc: 1 3 
+ cba mc: 1 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 1 4 
+ cba mc: 1 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 2 2 
+ cba mc: 2 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+
+mc: 0
+ nc: 2 3 
+ cba mc: 2 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 2 4 
+ cba mc: 2 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 3 3 
+ cba mc: 3 nc: 0 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 3 4 
+ cba mc: 3 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 4 4 
+ cba mc: 4 nc: 0 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 1
+ nc: 0 0 
+ cba mc: 0 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+
+mc: 1
+ nc: 0 2 
+ cba mc: 0 nc: 1 
+ cba mc: 2 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+
+mc: 1
+ nc: 0 3 
+ cba mc: 0 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 0 4 
+ cba mc: 0 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 2 2 
+ cba mc: 2 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+
+mc: 1
+ nc: 2 3 
+ cba mc: 2 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 2 4 
+ cba mc: 2 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 3 3 
+ cba mc: 3 nc: 1 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 3 4 
+ cba mc: 3 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 4 4 
+ cba mc: 4 nc: 1 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 2
+ nc: 0 0 
+ cba mc: 0 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+
+mc: 2
+ nc: 0 1 
+ cba mc: 0 nc: 2 
+ cba mc: 1 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+
+mc: 2
+ nc: 0 3 
+ cba mc: 0 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 0 4 
+ cba mc: 0 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 1 1 
+ cba mc: 1 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+
+mc: 2
+ nc: 1 3 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 1 4 
+ cba mc: 1 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 3 3 
+ cba mc: 3 nc: 2 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 3 4 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 4 4 
+ cba mc: 4 nc: 2 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 3
+ nc: 0 0 
+ cba mc: 0 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+
+mc: 3
+ nc: 0 1 
+ cba mc: 0 nc: 3 
+ cba mc: 1 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+
+mc: 3
+ nc: 0 2 
+ cba mc: 0 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 0 4 
+ cba mc: 0 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 1 1 
+ cba mc: 1 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+
+mc: 3
+ nc: 1 2 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 1 4 
+ cba mc: 1 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 2 2 
+ cba mc: 2 nc: 3 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 2 4 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 4 4 
+ cba mc: 4 nc: 3 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 4
+ nc: 0 0 
+ cba mc: 0 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+
+mc: 4
+ nc: 0 1 
+ cba mc: 0 nc: 4 
+ cba mc: 1 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+
+mc: 4
+ nc: 0 2 
+ cba mc: 0 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 0 3 
+ cba mc: 0 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 1 1 
+ cba mc: 1 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+
+mc: 4
+ nc: 1 2 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 1 3 
+ cba mc: 1 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 2 2 
+ cba mc: 2 nc: 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 2 3 
+ cba mc: 2 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 3 3 
+ cba mc: 3 nc: 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 0
+ nc: 1 1 1 
+ cba mc: 1 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+
+mc: 0
+ nc: 1 1 2 
+ cba mc: 1 nc: 0 
+ cba mc: 2 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+
+mc: 0
+ nc: 1 1 3 
+ cba mc: 1 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 1 1 4 
+ cba mc: 1 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 1 2 2 
+ cba mc: 1 nc: 0 
+ cba mc: 2 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+
+mc: 0
+ nc: 1 2 3 
+ cba mc: 1 nc: 0 
+ cba mc: 2 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 1 2 4 
+ cba mc: 1 nc: 0 
+ cba mc: 2 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 1 3 3 
+ cba mc: 1 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 1 3 4 
+ cba mc: 1 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 1 4 4 
+ cba mc: 1 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 1 nc: 0 0 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 1 nc: 0 0 0 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 2 2 2 
+ cba mc: 2 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+
+mc: 0
+ nc: 2 2 3 
+ cba mc: 2 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 2 2 4 
+ cba mc: 2 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 2 3 3 
+ cba mc: 2 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 2 3 4 
+ cba mc: 2 nc: 0 
+ cba mc: 3 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 2 4 4 
+ cba mc: 2 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 2 nc: 0 0 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 2 nc: 0 0 0 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 3 3 3 
+ cba mc: 3 nc: 0 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+
+mc: 0
+ nc: 3 3 4 
+ cba mc: 3 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 3 4 4 
+ cba mc: 3 nc: 0 
+ cba mc: 4 nc: 0 
+ cba mc: 3 nc: 0 0 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 0 4 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 3 nc: 0 0 0 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 0
+ nc: 4 4 4 
+ cba mc: 4 nc: 0 
+ cba mc: 4 nc: 0 0 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 0 0 0 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+
+mc: 1
+ nc: 0 0 0 
+ cba mc: 0 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+
+mc: 1
+ nc: 0 0 2 
+ cba mc: 0 nc: 1 
+ cba mc: 2 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+
+mc: 1
+ nc: 0 0 3 
+ cba mc: 0 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 0 0 4 
+ cba mc: 0 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 0 2 2 
+ cba mc: 0 nc: 1 
+ cba mc: 2 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+
+mc: 1
+ nc: 0 2 3 
+ cba mc: 0 nc: 1 
+ cba mc: 2 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 0 2 4 
+ cba mc: 0 nc: 1 
+ cba mc: 2 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 0 3 3 
+ cba mc: 0 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 0 3 4 
+ cba mc: 0 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 0 4 4 
+ cba mc: 0 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 0 nc: 1 1 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 0 nc: 1 1 1 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 2 2 2 
+ cba mc: 2 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+
+mc: 1
+ nc: 2 2 3 
+ cba mc: 2 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 2 2 4 
+ cba mc: 2 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 2 3 3 
+ cba mc: 2 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 2 3 4 
+ cba mc: 2 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 2 4 4 
+ cba mc: 2 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 2 nc: 0 1 
+ cba mc: 2 nc: 1 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 2 nc: 0 0 1 
+ cba mc: 2 nc: 0 1 1 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 1 1 1 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 3 3 3 
+ cba mc: 3 nc: 1 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+
+mc: 1
+ nc: 3 3 4 
+ cba mc: 3 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 3 4 4 
+ cba mc: 3 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 3 nc: 0 1 
+ cba mc: 3 nc: 1 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 3 nc: 0 0 1 
+ cba mc: 3 nc: 0 1 1 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 1 1 1 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 1
+ nc: 4 4 4 
+ cba mc: 4 nc: 1 
+ cba mc: 4 nc: 0 1 
+ cba mc: 4 nc: 1 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 0 0 1 
+ cba mc: 4 nc: 0 1 1 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 1 1 1 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+
+mc: 2
+ nc: 0 0 0 
+ cba mc: 0 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+
+mc: 2
+ nc: 0 0 1 
+ cba mc: 0 nc: 2 
+ cba mc: 1 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+
+mc: 2
+ nc: 0 0 3 
+ cba mc: 0 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 0 0 4 
+ cba mc: 0 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 0 1 1 
+ cba mc: 0 nc: 2 
+ cba mc: 1 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+
+mc: 2
+ nc: 0 1 3 
+ cba mc: 0 nc: 2 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 0 1 4 
+ cba mc: 0 nc: 2 
+ cba mc: 1 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 0 3 3 
+ cba mc: 0 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 0 3 4 
+ cba mc: 0 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 0 4 4 
+ cba mc: 0 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 0 nc: 1 2 
+ cba mc: 0 nc: 2 2 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 0 nc: 1 1 2 
+ cba mc: 0 nc: 1 2 2 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 2 2 2 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 1 1 1 
+ cba mc: 1 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+
+mc: 2
+ nc: 1 1 3 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 1 1 4 
+ cba mc: 1 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 1 3 3 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 1 3 4 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 1 4 4 
+ cba mc: 1 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 1 nc: 0 2 
+ cba mc: 1 nc: 2 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 1 nc: 0 0 2 
+ cba mc: 1 nc: 0 2 2 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 2 2 2 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 3 3 3 
+ cba mc: 3 nc: 2 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+
+mc: 2
+ nc: 3 3 4 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 3 4 4 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 3 nc: 0 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 3 nc: 0 0 2 
+ cba mc: 3 nc: 0 1 2 
+ cba mc: 3 nc: 0 2 2 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 1 1 2 
+ cba mc: 3 nc: 1 2 2 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 2 2 2 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 2
+ nc: 4 4 4 
+ cba mc: 4 nc: 2 
+ cba mc: 4 nc: 0 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 0 0 2 
+ cba mc: 4 nc: 0 1 2 
+ cba mc: 4 nc: 0 2 2 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 1 1 2 
+ cba mc: 4 nc: 1 2 2 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 2 2 2 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+
+mc: 3
+ nc: 0 0 0 
+ cba mc: 0 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+
+mc: 3
+ nc: 0 0 1 
+ cba mc: 0 nc: 3 
+ cba mc: 1 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+
+mc: 3
+ nc: 0 0 2 
+ cba mc: 0 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 0 0 4 
+ cba mc: 0 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 0 1 1 
+ cba mc: 0 nc: 3 
+ cba mc: 1 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+
+mc: 3
+ nc: 0 1 2 
+ cba mc: 0 nc: 3 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 0 1 4 
+ cba mc: 0 nc: 3 
+ cba mc: 1 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 0 2 2 
+ cba mc: 0 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 0 2 4 
+ cba mc: 0 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 0 4 4 
+ cba mc: 0 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 0 nc: 1 3 
+ cba mc: 0 nc: 2 3 
+ cba mc: 0 nc: 3 3 
+ cba mc: 0 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 0 nc: 1 1 3 
+ cba mc: 0 nc: 1 2 3 
+ cba mc: 0 nc: 1 3 3 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 2 2 3 
+ cba mc: 0 nc: 2 3 3 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 3 3 3 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 1 1 1 
+ cba mc: 1 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+
+mc: 3
+ nc: 1 1 2 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 1 1 4 
+ cba mc: 1 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 1 2 2 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 1 2 4 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 1 4 4 
+ cba mc: 1 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 1 nc: 0 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 1 nc: 0 0 3 
+ cba mc: 1 nc: 0 2 3 
+ cba mc: 1 nc: 0 3 3 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 2 2 3 
+ cba mc: 1 nc: 2 3 3 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 3 3 3 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 2 2 2 
+ cba mc: 2 nc: 3 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+
+mc: 3
+ nc: 2 2 4 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 2 4 4 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 2 nc: 0 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 2 nc: 0 0 3 
+ cba mc: 2 nc: 0 1 3 
+ cba mc: 2 nc: 0 3 3 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 1 1 3 
+ cba mc: 2 nc: 1 3 3 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 3 3 3 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 3
+ nc: 4 4 4 
+ cba mc: 4 nc: 3 
+ cba mc: 4 nc: 0 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 3 
+ cba mc: 4 nc: 0 0 3 
+ cba mc: 4 nc: 0 1 3 
+ cba mc: 4 nc: 0 2 3 
+ cba mc: 4 nc: 0 3 3 
+ cba mc: 4 nc: 1 1 3 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 3 
+ cba mc: 4 nc: 2 2 3 
+ cba mc: 4 nc: 2 3 3 
+ cba mc: 4 nc: 3 3 3 
+
+mc: 4
+ nc: 0 0 0 
+ cba mc: 0 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+
+mc: 4
+ nc: 0 0 1 
+ cba mc: 0 nc: 4 
+ cba mc: 1 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+
+mc: 4
+ nc: 0 0 2 
+ cba mc: 0 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 0 0 3 
+ cba mc: 0 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 0 1 1 
+ cba mc: 0 nc: 4 
+ cba mc: 1 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+
+mc: 4
+ nc: 0 1 2 
+ cba mc: 0 nc: 4 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 0 1 3 
+ cba mc: 0 nc: 4 
+ cba mc: 1 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 0 2 2 
+ cba mc: 0 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 0 2 3 
+ cba mc: 0 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 0 3 3 
+ cba mc: 0 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 0 nc: 1 4 
+ cba mc: 0 nc: 2 4 
+ cba mc: 0 nc: 3 4 
+ cba mc: 0 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 0 nc: 1 1 4 
+ cba mc: 0 nc: 1 2 4 
+ cba mc: 0 nc: 1 3 4 
+ cba mc: 0 nc: 1 4 4 
+ cba mc: 0 nc: 2 2 4 
+ cba mc: 0 nc: 2 3 4 
+ cba mc: 0 nc: 2 4 4 
+ cba mc: 0 nc: 3 3 4 
+ cba mc: 0 nc: 3 4 4 
+ cba mc: 0 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 1 1 1 
+ cba mc: 1 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+
+mc: 4
+ nc: 1 1 2 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 1 1 3 
+ cba mc: 1 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 1 2 2 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 1 2 3 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 1 3 3 
+ cba mc: 1 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 1 nc: 0 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 1 nc: 0 0 4 
+ cba mc: 1 nc: 0 2 4 
+ cba mc: 1 nc: 0 3 4 
+ cba mc: 1 nc: 0 4 4 
+ cba mc: 1 nc: 2 2 4 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 4 
+ cba mc: 1 nc: 3 3 4 
+ cba mc: 1 nc: 3 4 4 
+ cba mc: 1 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 2 2 2 
+ cba mc: 2 nc: 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+
+mc: 4
+ nc: 2 2 3 
+ cba mc: 2 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 2 3 3 
+ cba mc: 2 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 2 nc: 0 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 2 nc: 0 0 4 
+ cba mc: 2 nc: 0 1 4 
+ cba mc: 2 nc: 0 3 4 
+ cba mc: 2 nc: 0 4 4 
+ cba mc: 2 nc: 1 1 4 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 4 
+ cba mc: 2 nc: 3 3 4 
+ cba mc: 2 nc: 3 4 4 
+ cba mc: 2 nc: 4 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+
+mc: 4
+ nc: 3 3 3 
+ cba mc: 3 nc: 4 
+ cba mc: 3 nc: 0 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 4 
+ cba mc: 3 nc: 0 0 4 
+ cba mc: 3 nc: 0 1 4 
+ cba mc: 3 nc: 0 2 4 
+ cba mc: 3 nc: 0 4 4 
+ cba mc: 3 nc: 1 1 4 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 4 
+ cba mc: 3 nc: 2 2 4 
+ cba mc: 3 nc: 2 4 4 
+ cba mc: 3 nc: 4 4 4 
+

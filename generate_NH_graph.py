@@ -35,7 +35,7 @@ def generateNeighborhoodGraph(rounds: int, max_color: int, max_degree: int, NH_g
         
     can_be_adjacent(NHGraph)
 
-    #helpers.print_NHGraph(NH_graph)
+    helpers.print_NHGraph(NH_graph)
     return 0
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
@@ -86,7 +86,7 @@ def can_be_adjacent(NHGraph):
 
                         if(current_view.neighbor_colors[mnc] == NHGraph.SetOfBall[nb].mylocalview.my_color):
 
-                            current_view.can_be_adjacent.append(copy.deepcopy(NHGraph.SetOfBall[nb]))
+                            current_view.can_be_adjacent.append(copy.copy(NHGraph.SetOfBall[nb]))
                             break_again = 1
                             break
 

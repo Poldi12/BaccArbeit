@@ -27,6 +27,6 @@ def af_first(NH_graph, max_color):
         if(possible_color != -1):
             NH_graph.SetOfBall[ball].mylocalview.my_color = possible_color
 
-    helpers.print_NHGraph(NH_graph)
+    #helpers.print_NHGraph(NH_graph)
 
     return 0
