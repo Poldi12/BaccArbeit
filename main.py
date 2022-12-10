@@ -1,5 +1,5 @@
 # This is the main file calling the functions
-import generate_NH_graph
+import generateNHgraph
 import helpers
 import ausgabefaerbung
 
@@ -13,7 +13,7 @@ print("")
 return_value = 0
 
 #points to NH_Graph
-NH_graph_reference = [] 
+NH_graph_reference = []
 
 # Input parameters for generating graphs
 r: int = 1 #rounds #later change to input{"Enter rounds:"}
@@ -29,7 +29,7 @@ if (d >= m):
 ################
 
 if(return_value == 0):
-    return_value += generate_NH_graph.generateNeighborhoodGraph(r, m, d, NH_graph_reference)
+    return_value += generateNHgraph.generate_NHGraph(r, m, d, NH_graph_reference)
 
 """
 if(return_value == 0):
