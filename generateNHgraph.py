@@ -1,26 +1,6 @@
 import helpers
-from dataclasses import dataclass
 import copy
-
-@dataclass
-class LocalViewC:
-    MyColor: int = None
-    NeighborColors = []
-
-@dataclass
-class BallC:
-    MyLocalView: LocalViewC = None
-    Adjacents = []
-    
-@dataclass
-class VerticeC:
-    Ball: BallC = None
-    AF: int = None
-
-@dataclass
-class NHGraphC:
-    VerticeList = []
-
+from dataclasses_graph import *
 
 def generate_NHGraph(rounds: int, max_color: int, max_degree: int, NH_graph: list):
     #print("generateNeighborhoodGraph\n rounds:" + str(rounds) +"\n max_colour:"+ str(max_colour)+"\n max_edges:"+ str(max_degree))
@@ -43,7 +23,7 @@ def generate_NHGraph(rounds: int, max_color: int, max_degree: int, NH_graph: lis
 
     color_vertices(NH_graph)
 
-    helpers.print_NHGraph(NH_graph)
+    #helpers.print_NHGraph(NH_graph)
     return 0
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):

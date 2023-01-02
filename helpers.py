@@ -1,6 +1,7 @@
 import networkx
 import matplotlib.pyplot as plt
 from enum import Enum
+from dataclasses_graph import *
 
 #print networkx, currently not in use
 def print_networkx(all_balls_list, position):
@@ -44,6 +45,8 @@ def print_NHGraph(NHGraph):
         file.write('\n')
         
     file.write('number_balls:' + str(len(NHGraph.VerticeList)))
+    file.write('\n')
+    file.write('SAT:' + str(NHGraph.SAT))
 
     #terminal print
     """

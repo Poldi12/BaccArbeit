@@ -1,34 +1,25 @@
 import helpers
-from generateNHgraph import *
+from pysat.formula import CNF
+from pysat.solvers import Solver
+from dataclasses_graph import *
+# main function, checks, if given coloring is satisfiable
+def af_SAT(NH_graph, max_color):
 
-#NOT working!
+    CNF_list = []
 
-#look at neighbors, reduce mc to smallest possible color
-def af_first(NH_graph, max_color):
+    convert_graph_to_CNF(NH_graph, CNF_list)
 
-    NH_graph = NHGraph
+    with Solver(bootstrap_with=CNF_list) as solver:
 
-    for ball in range(len(NH_graph.VerticeList)):
-        possible_color = -1
-        skip = 0
+        if(solver.solve()):
+            NH_graph.SAT = 1
+        else:
+            NH_graph.SAT = 0
 
-        for color in range(max_color):
-            current_mc = NH_graph.VerticeList[ball].Ball.mylocalview.my_color
-            if(color != current_mc):
-                
-                for nc in range(len(NH_graph.VerticeList[ball].Ball.mylocalview.neighbor_colors)):
-                    current_nc = NH_graph.VerticeList[ball].Ball.mylocalview.neighbor_colors[nc]
+    return 0
 
-                    if((not skip) and (color < current_nc)):
-                        possible_color = color
-                        skip = 1
-                    if(possible_color >= current_nc):
-                        possible_color = -1
-                        skip = 0
+def convert_graph_to_CNF(NH_graph, CNF_list):
 
-        if(possible_color != -1):
-            NH_graph.VerticeList[ball].Ball.mylocalview.my_color = possible_color
-
-    #helpers.print_NHGraph(NH_graph)
+    
 
     return 0

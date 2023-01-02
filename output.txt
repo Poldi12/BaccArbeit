@@ -5349,3 +5349,4 @@ number_adjacents:15
 vertice_ausgabefaerbung:4
 
 number_balls:170
+SAT:1

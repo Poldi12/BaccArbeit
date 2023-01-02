@@ -2,6 +2,7 @@
 import generateNHgraph
 import helpers
 import ausgabefaerbung
+import dataclasses_graph
 
 print("starting program...")
 print("")
@@ -13,7 +14,7 @@ print("")
 return_value = 0
 
 #points to NH_Graph
-NH_graph_reference = []
+NH_graph_reference = dataclasses_graph.NHGraphC()
 
 # Input parameters for generating graphs
 r: int = 1 #rounds #later change to input{"Enter rounds:"}
@@ -31,9 +32,10 @@ if (d >= m):
 if(return_value == 0):
     return_value += generateNHgraph.generate_NHGraph(r, m, d, NH_graph_reference)
 
-"""
 if(return_value == 0):
-    return_value += ausgabefaerbung.af_first(NH_graph_reference, m)
-"""
+    return_value += ausgabefaerbung.af_SAT(NH_graph_reference, m)
+
+helpers.print_NHGraph(NH_graph_reference)
+
 print("")
 print("ret_val: " + str(return_value))
