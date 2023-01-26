@@ -14,8 +14,12 @@ class BallC:
 class VerticeC:
     Ball: BallC = None
     AF: int = None
+    PositionInVerticeList: int = None
 
 @dataclass
 class NHGraphC:
     VerticeList = []
     SAT: int = None
+    Solution = []
+    Problem = []
+    LaufzeitAusgabefärbung: int = None

@@ -10,7 +10,7 @@ def generate_NHGraph(rounds: int, max_color: int, max_degree: int, NH_graph: lis
     #generate NH_graph rekursive with "Eingabefaerbung"
     for degree in range(1, max_degree+1):
 
-        for mc in range(max_color+1):
+        for mc in range(1,max_color+1):
 
             temp_nc_lst = []
             for i in range(degree):
@@ -18,6 +18,8 @@ def generate_NHGraph(rounds: int, max_color: int, max_degree: int, NH_graph: lis
             current_degree = [-1]
             
             rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+
+    assign_position_in_VerticeList(NH_graph)
         
     generate_adjacents(NH_graph)
 
@@ -28,7 +30,7 @@ def generate_NHGraph(rounds: int, max_color: int, max_degree: int, NH_graph: lis
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
     current_degree[0] += 1
-    start = 0
+    start = 1
     if(current_degree[0] != 0):
         start = temp_nc_lst[current_degree[0]-1]
 
@@ -61,7 +63,13 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
             current_degree[0] -= 1
             break
         
+#Sets Position in VerticeList, which we need for clororing with SAT-Solver
+def assign_position_in_VerticeList(NHGraph):
+    for vertice in range(len(NHGraph.VerticeList)):
+        NHGraph.VerticeList[vertice].PositionInVerticeList = vertice
 
+
+#Fills the Adjacents List
 def generate_adjacents(NHGraph):
     for vertice in range(len(NHGraph.VerticeList)):
         current_ball = NHGraph.VerticeList[vertice].Ball
@@ -77,10 +85,11 @@ def comparison(NHGraph, current_ball, nb):
             for mnc in range(len(current_ball.MyLocalView.NeighborColors)):
 
                 if(current_ball.MyLocalView.NeighborColors[mnc] == NHGraph.VerticeList[nb].Ball.MyLocalView.MyColor):
-                    current_ball.Adjacents.append(copy.copy(NHGraph.VerticeList[nb].Ball))
+                    current_ball.Adjacents.append(copy.copy(NHGraph.VerticeList[nb]))
                     return
 
 
+#Single Function to check, if 2 Balls are adjacent
 def can_be_adjacent(Ball1, Ball2):
     for nc2 in range(len(Ball2.NeighborColors)):
         if (Ball1.MyLocalView.MyColor == Ball2.NeighborColors[nc2]):
@@ -91,6 +100,7 @@ def can_be_adjacent(Ball1, Ball2):
     return 0
 
 
+#Set initial color of the Vertice AF
 def color_vertices(NHGraph):
     for vertice in range(len(NHGraph.VerticeList)):
         NHGraph.VerticeList[vertice].AF = NHGraph.VerticeList[vertice].Ball.MyLocalView.MyColor

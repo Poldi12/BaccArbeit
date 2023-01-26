@@ -1,21 +1,23 @@
 # BaccArbeit
 # Work in Progress
 
-Generated NH graph:
-NHGraph = contains list of Vertice
-Vertice = contains list of Ball and AF(ausgabefaerbung Vertice)
-Ball = contains LocalView and Adjacents
-LocalView = contains the color of the local node and the neighbor nodes
+Setup: pip install python-sat
+       pip install dataclasses
+       pip install networkx
 
-generate_graph: functioning for r=1
+For structue, see dataclasses
+additional documentation may follow...
 
-todo: >is adjacent function for 2 balls (done)
-      >count balls/adjacents ausgeben (done)
-      >ausgabe in txt datei (done)
-      >zwischen datenstruktur verticec attrib.: ball, ausgabefärbung (done)
-      >rework can_be_adjacent (list umbenennen und in ball speichern, funktion übersichtlicher gestalten)(done)
+todo: >sat ausgabefärbung!!
+            >Why some AF = None?? (generateNHgraph -> color_verices)
 
-      >start with sat ausgabefärbung
+      >Laufzeit generateNHGraph bestimmen(On)
+      >Ausgabefärbung valide überprüfen(sat/ohne sat)
+      >Vorlage für bacc arbeit suchen(latex, z.b. iaik/sigv) (done)
+      >schreiben beginnen - sat solver für graph coloring problem
+      >anzahl kanten(adjacents) insgesamt ausgeben(alle zusammenzählen und /2) (done)
 
+might do:
       >graphisches darstellen mit networkx?
-      >ausgabefaerbung für balls?
+      >färbung mit mehr als einer Runde?
+

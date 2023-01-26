@@ -18,6 +18,8 @@ def print_NHGraph(NHGraph):
 
     file = open('output.txt', 'w')
 
+    adjcacents_total = 0
+
     for i in range(len(NHGraph.VerticeList)):
 
         # ball with mc and ncs
@@ -30,12 +32,13 @@ def print_NHGraph(NHGraph):
         # possible adjacents 
         
         for k in range(len(NHGraph.VerticeList[i].Ball.Adjacents)):
-            current_adjacent_view = NHGraph.VerticeList[i].Ball.Adjacents[k].MyLocalView
+            current_adjacent_view = NHGraph.VerticeList[i].Ball.Adjacents[k].Ball.MyLocalView
             file.write(' cba mc: ' + str(current_adjacent_view.MyColor) + ' nc: ')
             for j in range(len(current_adjacent_view.NeighborColors)):
                 file.write(str(current_adjacent_view.NeighborColors[j]) + ' ')
             file.write('\n')
         file.write('number_adjacents:' + str(len(NHGraph.VerticeList[i].Ball.Adjacents)))
+        adjcacents_total += len(NHGraph.VerticeList[i].Ball.Adjacents)
         file.write('\n')
 
         # vertices
@@ -46,7 +49,15 @@ def print_NHGraph(NHGraph):
         
     file.write('number_balls:' + str(len(NHGraph.VerticeList)))
     file.write('\n')
+    file.write('number total_adjacents:' + str(adjcacents_total/2))
+    file.write('\n')
+    file.write('Solution:' + str(NHGraph.Solution))
+    file.write('\n')
+    file.write('Problem:' + str(NHGraph.Problem))
+    file.write('\n')
     file.write('SAT:' + str(NHGraph.SAT))
+    file.write('\n')
+    file.write('Laufzeit Ausgabefaerbung:' + str(NHGraph.LaufzeitAusgabefärbung))
 
     #terminal print
     """
