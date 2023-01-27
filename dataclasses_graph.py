@@ -20,6 +20,8 @@ class VerticeC:
 class NHGraphC:
     VerticeList = []
     SAT: int = None
+    Valid: bool = False
     Solution = []
     Problem = []
     LaufzeitAusgabefärbung: int = None
+    LaufzeitGenerateGraph: int = None

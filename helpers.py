@@ -14,7 +14,7 @@ def print_networkx(all_balls_list, position):
     plt.axis("on")
     plt.show()
 
-def print_NHGraph(NHGraph):
+def print_NHGraph(NHGraph, r, m , d, ma):
 
     file = open('output.txt', 'w')
 
@@ -47,17 +47,43 @@ def print_NHGraph(NHGraph):
         file.write('\n')
         file.write('\n')
         
-    file.write('number_balls:' + str(len(NHGraph.VerticeList)))
+    #General Infos (bottom of output file)
     file.write('\n')
-    file.write('number total_adjacents:' + str(adjcacents_total/2))
+    file.write('INFO')
     file.write('\n')
-    file.write('Solution:' + str(NHGraph.Solution))
+    file.write('====')
     file.write('\n')
-    file.write('Problem:' + str(NHGraph.Problem))
     file.write('\n')
-    file.write('SAT:' + str(NHGraph.SAT))
+    file.write('Generate Graph Input Parameters:')
     file.write('\n')
-    file.write('Laufzeit Ausgabefaerbung:' + str(NHGraph.LaufzeitAusgabefärbung))
+    file.write('    max_color:' + str(m))
+    file.write('\n')
+    file.write('    degree:' + str(d))
+    file.write('\n')
+    file.write('\n')
+    file.write('Generated Graph Info:')
+    file.write('\n')
+    file.write('    number_balls:' + str(len(NHGraph.VerticeList)))
+    file.write('\n')
+    file.write('    number total_adjacents:' + str(adjcacents_total/2))
+    file.write('\n')
+    file.write('    Laufzeit GenerateGraph:' + str(NHGraph.LaufzeitGenerateGraph))
+    file.write('\n')
+    file.write('\n')
+    file.write('Ausgabefaerbung SATSolver Info:')
+    file.write('\n')
+    file.write('    SAT:' + str(NHGraph.SAT))
+    file.write('\n')
+    file.write('    Solution:' + str(NHGraph.Solution))
+    file.write('\n')
+    file.write('    Problem:' + str(NHGraph.Problem))
+    file.write('\n')
+    file.write('    Laufzeit Ausgabefaerbung:' + str(NHGraph.LaufzeitAusgabefärbung))
+    file.write('\n')
+    file.write('\n')
+    file.write('Other Infos:')
+    file.write('\n')
+    file.write('    Valid:' + str(NHGraph.Valid))
 
     #terminal print
     """

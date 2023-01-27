@@ -5,19 +5,21 @@ Setup: pip install python-sat
        pip install dataclasses
        pip install networkx
 
-For structue, see dataclasses
+For structure, see dataclasses
 additional documentation may follow...
 
-todo: >sat ausgabefärbung!!
-            >Why some AF = None?? (generateNHgraph -> color_verices)
+todo: >sat ausgabefärbung
+            >map received af to nh_graph
+                  >decode solver result
 
-      >Laufzeit generateNHGraph bestimmen(On)
-      >Ausgabefärbung valide überprüfen(sat/ohne sat)
-      >Vorlage für bacc arbeit suchen(latex, z.b. iaik/sigv) (done)
-      >schreiben beginnen - sat solver für graph coloring problem
-      >anzahl kanten(adjacents) insgesamt ausgeben(alle zusammenzählen und /2) (done)
+      >Laufzeit generateNHGraph bestimmen(O-Notation)
+      >Ausgabefärbung valide überprüfen(ohne sat) (done)
+      >schreiben beginnen - sat solver für graph coloring problem, laut liste
+      >Infos of Input Parameters,... on Output file (done)
+      >Input max color, output max color (af) (done)
 
 might do:
+      >generate graph für max_color <= max_degree fixen
       >graphisches darstellen mit networkx?
       >färbung mit mehr als einer Runde?
 

@@ -1,11 +1,11 @@
-import helpers
 import copy
 from dataclasses_graph import *
+import time
 
-def generate_NHGraph(rounds: int, max_color: int, max_degree: int, NH_graph: list):
+def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
     #print("generateNeighborhoodGraph\n rounds:" + str(rounds) +"\n max_colour:"+ str(max_colour)+"\n max_edges:"+ str(max_degree))
 
-    NH_graph = NHGraphC()
+    st = time.process_time()
 
     #generate NH_graph rekursive with "Eingabefaerbung"
     for degree in range(1, max_degree+1):
@@ -25,7 +25,12 @@ def generate_NHGraph(rounds: int, max_color: int, max_degree: int, NH_graph: lis
 
     color_vertices(NH_graph)
 
-    #helpers.print_NHGraph(NH_graph)
+    et = time.process_time()
+    
+    NH_graph.LaufzeitGenerateGraph = (et - st)
+
+    print(str(NH_graph.LaufzeitGenerateGraph))
+
     return 0
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
@@ -55,6 +60,8 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
                     vertice_.Ball.MyLocalView.NeighborColors.append(temp_nc_lst[i])
     
                 NH_graph.VerticeList.append(vertice_)
+                NH_graph.LaufzeitGenerateGraph = 0
+                NH_graph.Valid = True
 
             else:
                 rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
