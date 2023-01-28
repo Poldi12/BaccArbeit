@@ -29,7 +29,7 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
     
     NH_graph.LaufzeitGenerateGraph = (et - st)
 
-    print(str(NH_graph.LaufzeitGenerateGraph))
+    #print(str(NH_graph.LaufzeitGenerateGraph))
 
     return 0
 

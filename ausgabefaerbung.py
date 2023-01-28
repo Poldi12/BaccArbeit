@@ -15,7 +15,8 @@ def af_SAT(NH_graph, max_color):
 
     if(solver.solve()):
         NH_graph.SAT = 1
-        NH_graph.Solution = solver.get_model()
+        NH_graph.Solution = decode_position_with_color(solver.get_model(), max_color)
+        assign_new_color_values(NH_graph, NH_graph.Solution)
     else:
         NH_graph.SAT = 0
         NH_graph.Problem = solver.get_core()
@@ -69,5 +70,21 @@ def encode_position_with_color(variable, color, max_color):
 
 def decode_position_with_color(list, max_color):
 
-    ball_color_tuple =[]
-    
+    ball_color_tuple = []
+    for entry in range(len(list)):
+        if (list[entry] < 0): continue
+        else:
+
+            #position = list[entry] / max_color
+            color = list[entry] % max_color
+            append_value = (color) #, position)
+            ball_color_tuple.append(append_value)
+            
+    return ball_color_tuple
+
+def assign_new_color_values(NH_graph, ball_color_tuple):
+
+    for vertice in range(len(NH_graph.VerticeList)):
+        NH_graph.VerticeList[vertice].AF = ball_color_tuple[vertice]
+
+    return 0
