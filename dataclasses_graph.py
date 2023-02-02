@@ -23,5 +23,8 @@ class NHGraphC:
     Valid: bool = False
     Solution = []
     Problem = []
+    MaxColorOutput: int = None
     LaufzeitAusgabefärbung: int = None
     LaufzeitGenerateGraph: int = None
+    NOC: int = None
+    TotAdj: int = 0

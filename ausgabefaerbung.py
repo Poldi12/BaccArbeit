@@ -1,9 +1,12 @@
-from pysat.solvers import Solver
+from pysat.solvers import Solver, Cadical, Glucose3, Lingeling, MapleChrono, Minisat22
 from dataclasses_graph import *
 import time
+import validateNHgraph
 
 # main function, checks, if given coloring is satisfiable
 def af_SAT(NH_graph, max_color):
+
+    print("start coloring Graph...")
     
     st = time.process_time()
 
@@ -11,20 +14,24 @@ def af_SAT(NH_graph, max_color):
 
     build_cnf_for_af(NH_graph, solver, max_color)
 
-    print(str(solver.nof_clauses()))
+    NH_graph.NOC = solver.nof_clauses()
 
     if(solver.solve()):
         NH_graph.SAT = 1
         NH_graph.Solution = decode_position_with_color(solver.get_model(), max_color)
         assign_new_color_values(NH_graph, NH_graph.Solution)
+        validateNHgraph.validation(NH_graph)
     else:
         NH_graph.SAT = 0
         NH_graph.Problem = solver.get_core()
-        #print(str(solver.get_core()))
+
+    solver.delete()
 
     et = time.process_time()
 
     NH_graph.LaufzeitAusgabefärbung = et - st
+
+    print("coloring Graph finished")
 
     return 0
 
@@ -36,13 +43,11 @@ def build_cnf_for_af(NH_graph, solver, max_color):
 
             adjacent_position_in_vertice_list = NH_graph.VerticeList[vertice].Ball.Adjacents[adjacent].PositionInVerticeList
 
-            for color in range(1,max_color+1):
+            for color in range(1, max_color+1):
 
                 vertice_enc = encode_position_with_color(vertice, color, max_color)
                 adjacent_enc = encode_position_with_color(adjacent_position_in_vertice_list, color, max_color)
-                #print(str(-vertice_enc))
                 solver.add_clause([-vertice_enc, -adjacent_enc])
-    #print(str(solver.nof_clauses()))
 
     #Every node needs a color (a1va2va3)
     for vertice in range(len(NH_graph.VerticeList)):
@@ -74,11 +79,9 @@ def decode_position_with_color(list, max_color):
     for entry in range(len(list)):
         if (list[entry] < 0): continue
         else:
-
-            #position = list[entry] / max_color
-            color = list[entry] % max_color
-            append_value = (color) #, position)
-            ball_color_tuple.append(append_value)
+            #position = list[entry] / max_color #not exact
+            color = 1+(list[entry] % max_color)
+            ball_color_tuple.append(color)
             
     return ball_color_tuple
 

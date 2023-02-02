@@ -5,6 +5,8 @@ import time
 def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
     #print("generateNeighborhoodGraph\n rounds:" + str(rounds) +"\n max_colour:"+ str(max_colour)+"\n max_edges:"+ str(max_degree))
 
+    print("start generating Graph...")
+
     st = time.process_time()
 
     #generate NH_graph rekursive with "Eingabefaerbung"
@@ -20,7 +22,7 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
             rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
 
     assign_position_in_VerticeList(NH_graph)
-        
+
     generate_adjacents(NH_graph)
 
     color_vertices(NH_graph)
@@ -28,6 +30,8 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
     et = time.process_time()
     
     NH_graph.LaufzeitGenerateGraph = (et - st)
+
+    print("generating Graph finished \n")
 
     #print(str(NH_graph.LaufzeitGenerateGraph))
 
@@ -54,14 +58,12 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
                 vertice_.Ball.MyLocalView = LocalViewC()
                 vertice_.Ball.MyLocalView.NeighborColors = []
                 vertice_.Ball.Adjacents = []
-
                 vertice_.Ball.MyLocalView.MyColor = mc
+
                 for i in range(len(temp_nc_lst)):
                     vertice_.Ball.MyLocalView.NeighborColors.append(temp_nc_lst[i])
     
                 NH_graph.VerticeList.append(vertice_)
-                NH_graph.LaufzeitGenerateGraph = 0
-                NH_graph.Valid = True
 
             else:
                 rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
@@ -69,6 +71,8 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
         if (color == max_color):
             current_degree[0] -= 1
             break
+        
+    NH_graph.Valid = True
         
 #Sets Position in VerticeList, which we need for clororing with SAT-Solver
 def assign_position_in_VerticeList(NHGraph):
@@ -93,6 +97,7 @@ def comparison(NHGraph, current_ball, nb):
 
                 if(current_ball.MyLocalView.NeighborColors[mnc] == NHGraph.VerticeList[nb].Ball.MyLocalView.MyColor):
                     current_ball.Adjacents.append(copy.copy(NHGraph.VerticeList[nb]))
+                    NHGraph.TotAdj += 1
                     return
 
 
