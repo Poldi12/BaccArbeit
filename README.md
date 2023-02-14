@@ -38,9 +38,7 @@ The "src" folder contains all relevant source files. The first of two main-parts
 
 ## Misc for myself
 
-todo: >better Usability > .exe
-                        > parameter bei aufruf mitgeben
-                        > -help flag
+todo: 
 
 might do:
       >generate graph für max_color <= max_degree fixen
