@@ -5359,7 +5359,7 @@ Generate Graph Input Parameters:
 Generated Graph Info:
     number_balls: 170
     number total_adjacents: 2250.0
-    Laufzeit GenerateGraph: 0.109375
+    Laufzeit GenerateGraph: 0.078125
 
 Ausgabefaerbung SATSolver Info:
     Max_color_Faerbung_input: 4
@@ -5368,7 +5368,7 @@ Ausgabefaerbung SATSolver Info:
     SAT: 1
     Solution: [1, 2, 2, 4, 4, 4, 4, 4, 1, 3, 4, 1, 3, 2, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 3, 2, 1, 3, 4, 4, 4, 4, 4, 4, 4, 1, 4, 3, 1, 1, 1, 1, 2, 1, 3, 1, 4, 3, 3, 3, 3, 3, 2, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 3, 2, 2, 3, 1, 1, 3, 2, 2, 3, 2, 4, 3, 2, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 3, 1, 1, 3, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 3, 2, 3, 3, 2, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     Problem: []
-    Laufzeit Ausgabefaerbung: 0.0625
+    Laufzeit Ausgabefaerbung: 0.03125
 
 Other Infos:
     Valid: True

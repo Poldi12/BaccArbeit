@@ -2,6 +2,7 @@
 #import matplotlib.pyplot as plt
 #from enum import Enum
 from src.dataclasses_graph import *
+import os
 
 #print networkx, currently not in use
 '''
@@ -88,6 +89,30 @@ def print_NHGraph(NHGraph, r, m , d, ma, print_graph, file_name):
     file.write('    Valid: ' + str(NHGraph.Valid))
 
     file.close()
+
+    os.chmod(file_name, 0o777)
+
+    #General Infos in terminal (bottom of output file)
+    print('')
+    print('INFO')
+    print('====')
+    print('Generate Graph Input Parameters:')
+    print('    Max_color_Generate_Graph: ' + str(m))
+    print('    degree: ' + str(d))
+    print('Generated Graph Info:')
+    print('    number_balls: ' + str(len(NHGraph.VerticeList)))
+    print('    number total_adjacents: ' + str(NHGraph.TotAdj /2))
+    print('    Laufzeit GenerateGraph: ' + str(NHGraph.LaufzeitGenerateGraph))
+    print('Ausgabefaerbung SATSolver Info:')
+    print('    Max_color_Faerbung_input: ' + str(ma))
+    print('    Max_color_Faerbung_output: ' + str(NHGraph.MaxColorOutput))
+    print('    Number_of_CNF_clauses: ' + str(NHGraph.NOC))
+    print('    SAT: ' + str(NHGraph.SAT))
+    print('    Solution: ' + str(NHGraph.Solution))
+    print('    Problem: ' + str(NHGraph.Problem))
+    print('    Laufzeit Ausgabefaerbung: ' + str(NHGraph.LaufzeitAusgabefärbung))
+    print('Other Infos:')
+    print('    Valid: ' + str(NHGraph.Valid))
 
     #terminal print
     """

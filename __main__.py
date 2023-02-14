@@ -72,4 +72,4 @@ helpers.print_NHGraph(NH_graph_reference, r, m , d, q, print_graph, file_name)
 
 print("")
 print("program finished")
-print("ret_val: " + str(return_value))
+#print("ret_val: " + str(return_value))

@@ -16,6 +16,8 @@ def af_SAT(NH_graph, max_color):
 
     NH_graph.NOC = solver.nof_clauses()
 
+    print("finished building CNF, solving...")
+
     if(solver.solve()):
         NH_graph.SAT = 1
         NH_graph.Solution = decode_position_with_color(solver.get_model(), max_color)

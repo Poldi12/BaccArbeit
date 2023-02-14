@@ -20,7 +20,7 @@ Windows 11:
 
 A compiled .exe files can be found within the "bin/" folder.
 ```
-./main.exe -help
+.\main.exe -help
 ```
 
 ## Setup Project
