@@ -1,4 +1,4 @@
-from src.dataclasses_graph import *
+from src.dataclassesGraph import *
 
 def validation(NHGraph):
 

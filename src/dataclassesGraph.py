@@ -28,3 +28,13 @@ class NHGraphC:
     LaufzeitGenerateGraph: int = None
     NOC: int = None
     TotAdj: int = 0
+
+@dataclass
+class InputC:
+    m: int = None
+    d: int = None
+    q: int = None
+    OutputFile = []
+    PrintGraph = False
+    Solver = []
+    Output_Yes = True

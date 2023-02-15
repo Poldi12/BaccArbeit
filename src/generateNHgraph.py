@@ -1,5 +1,5 @@
 import copy
-from src.dataclasses_graph import *
+from src.dataclassesGraph import *
 import time
 
 def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):

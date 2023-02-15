@@ -5359,7 +5359,7 @@ Generate Graph Input Parameters:
 Generated Graph Info:
     number_balls: 170
     number total_adjacents: 2250.0
-    Laufzeit GenerateGraph: 0.078125
+    Laufzeit GenerateGraph: 0.046875
 
 Ausgabefaerbung SATSolver Info:
     Max_color_Faerbung_input: 4
