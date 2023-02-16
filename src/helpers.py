@@ -6,7 +6,7 @@ import os
 def print_NHGraph(NHGraph, m , d, ma, print_graph, file_name, used_solver):
 
     # only print outputfile if a path is provided
-    if(file_name == 'nooutputprovided!.txt'):
+    if(file_name != 'nooutputprovided!.txt'):
             
         file = open(file_name, 'w')
 
