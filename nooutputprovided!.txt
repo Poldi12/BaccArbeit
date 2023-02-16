@@ -2,23 +2,22 @@ INFO
 ====
 
 Generate Graph Input Parameters:
-    Max_color_Generate_Graph: 5
+    Max_color_Generate_Graph: 4
     degree: 3
 
 Generated Graph Info:
-    number_balls: 170
-    number total_adjacents: 2250.0
-    Laufzeit GenerateGraph: 0.03125
+    number_balls: 76
+    number total_adjacents: 600.0
+    Laufzeit GenerateGraph: 0.015625
 
 Ausgabefaerbung SATSolver Info:
-    Solver: gc3
-    Max_color_Faerbung_input: 5
-    Max_color_Faerbung_output: 5
-    Number_of_CNF_clauses: 24370
+    Solver: cd
+    Max_color_Faerbung_input: 4
+    Max_color_Faerbung_output: 4
+    Number_of_CNF_clauses: 5332
     SAT: 1
-    Solution: [1, 5, 4, 3, 2, 5, 4, 3, 2, 2, 4, 3, 2, 2, 2, 3, 2, 2, 2, 2, 1, 1, 1, 1, 5, 5, 5, 4, 4, 3, 2, 5, 4, 3, 5, 5, 5, 4, 4, 3, 2, 2, 4, 3, 2, 4, 3, 4, 4, 3, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 5, 5, 4, 4, 4, 3, 2, 5, 4, 3, 5, 5, 5, 4, 4, 3, 5, 5, 5, 5, 5, 5, 4, 4, 4, 3, 2, 2, 4, 3, 2, 4, 3, 4, 4, 3, 2, 4, 3, 4, 4, 3, 4, 4, 4, 3, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 2, 2, 3, 2, 3, 3, 2, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-    Problem: []
-    Laufzeit Ausgabefaerbung: 0.03125
+    Solution: [2, 2, 2, 3, 2, 2, 3, 3, 2, 3, 3, 3, 2, 2, 2, 2, 2, 2, 3, 4, 4, 2, 2, 2, 3, 3, 4, 3, 1, 2, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4, 4, 2, 2, 2, 2, 3, 3, 4, 3, 1, 4, 3, 1, 1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+    Laufzeit Ausgabefaerbung: 0.015625
 
 Other Infos:
     Valid: True

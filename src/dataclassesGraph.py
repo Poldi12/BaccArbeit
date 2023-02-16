@@ -1,4 +1,8 @@
+#This file contains all datastructs used in this project
+
 from dataclasses import dataclass
+
+#dataclasses for the neighborhood graph
 
 @dataclass
 class LocalViewC:
@@ -22,13 +26,13 @@ class NHGraphC:
     SAT: int = None
     Valid: bool = False
     Solution = []
-    Problem = []
     MaxColorOutput: int = None
     LaufzeitAusgabefärbung: int = None
     LaufzeitGenerateGraph: int = None
     NOC: int = None
     TotAdj: int = 0
 
+#Input dataclass
 @dataclass
 class InputC:
     m: int = None
@@ -37,4 +41,3 @@ class InputC:
     OutputFile = []
     PrintGraph = False
     Solver = []
-    Output_Yes = True

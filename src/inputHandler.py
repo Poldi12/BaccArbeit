@@ -1,3 +1,5 @@
+#This file handles the input of the user
+
 import sys
 
 def handle_input(inputparam):
@@ -27,45 +29,38 @@ def handle_input(inputparam):
             input("Press ENTER to exit program")
             return 1
 
+        #actual parameters
         inputparam.m = int(sys.argv[1])
         inputparam.d = int(sys.argv[2])
         inputparam.q = int(sys.argv[3])
 
+        if (inputparam.d >= inputparam.m):
+            print("invalid input for generating valid Neighbourhoodgraph\n (Check max degree and number of colors input)")
+            return 1
+
     except IndexError:
         print('Required Input Parameters missing!')
         print('For Info, call program with -help')
-        inputparam.Output_Yes = False
         return 1            
-    
-    #simple print through file(old)
-    '''
-    print_graph: bool = False
-    m: int = 6 #max input color
-    d: int = 3 #degree
-    ma: int = 5 #max output color (color for ausgabefaerbung)
-    file_name = 'output.txt'
-    print_graph = False
-    '''
 
+    #select Solver
     try:
         inputparam.Solver = sys.argv[4]
     except IndexError:
         inputparam.Solver = 'cd'
 
+    #select Output Graph
     try:
         inputparam.OutputFile = sys.argv[5]
     except IndexError:
         inputparam.OutputFile = 'nooutputprovided!.txt'
 
+    #Select if whole graph should be printed
     try:
         printGraph = sys.argv[6]
         if(printGraph == 'y'):
             inputparam.PrintGraph = True
     except IndexError:
         printGraph = False
-
-    if (inputparam.d >= input.m):
-        print("invalid input for generating valid Neighbourhoodgraph\n (Check max degree and number of colors input)")
-        return_value += 1
 
     return 0

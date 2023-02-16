@@ -1,36 +1,41 @@
+#This file contains all functionality regarding coloring the graph after generation
+
 from pysat.solvers import Solver
 from src.dataclassesGraph import *
 import time
 import src.validateNHGraph as validateNHGraph
 
-# main function, checks, if given coloring is satisfiable
 def af_SAT(NH_graph, max_color, solver_selected):
 
     print("start coloring Graph...")
     
     st = time.process_time()
 
+    #Solver is selected
     solver = Solver(name = solver_selected)
     
+    #cnf is generated
     build_cnf_for_af(NH_graph, solver, max_color)
 
+    #get number of cnf clauses
     NH_graph.NOC = solver.nof_clauses()
 
     print("finished building CNF, solving...")
 
+    #Try to solve the graph
     if(solver.solve()):
         NH_graph.SAT = 1
         NH_graph.Solution = decode_position_with_color(solver.get_model(), max_color)
+
+        #map new colors to graph and validate them
         assign_new_color_values(NH_graph, NH_graph.Solution)
         validateNHGraph.validation(NH_graph)
     else:
         NH_graph.SAT = 0
-        NH_graph.Problem = solver.get_core()
 
     solver.delete()
 
     et = time.process_time()
-
     NH_graph.LaufzeitAusgabefärbung = et - st
 
     print("coloring Graph finished")

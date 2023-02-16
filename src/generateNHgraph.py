@@ -1,24 +1,26 @@
+#This file generates the neighborhood graph with a valid vertice coloring
+
 import copy
 from src.dataclassesGraph import *
 import time
 
 def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
-    #print("generateNeighborhoodGraph\n rounds:" + str(rounds) +"\n max_colour:"+ str(max_colour)+"\n max_edges:"+ str(max_degree))
-
+    
     print("start generating Graph...")
 
     st = time.process_time()
 
-    #generate NH_graph rekursive with "Eingabefaerbung"
+    #generate for every ball a nc list
     for degree in range(1, max_degree+1):
-
         for mc in range(1,max_color+1):
-
             temp_nc_lst = []
+
+            #fill the nc list with start values (-1)
             for i in range(degree):
                 temp_nc_lst.append(-1)
-            current_degree = [-1]
+            current_degree = [-1] #has to be object, becaus pass by reference
             
+            #rekursiveley add the right nc to nc list
             rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
 
     assign_position_in_VerticeList(NH_graph)
@@ -28,7 +30,6 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
     color_vertices(NH_graph)
 
     et = time.process_time()
-    
     NH_graph.LaufzeitGenerateGraph = (et - st)
 
     print("generating Graph finished \n")
@@ -38,20 +39,26 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
     return 0
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
+
+    #needed for offsets
     current_degree[0] += 1
     start = 1
     if(current_degree[0] != 0):
         start = temp_nc_lst[current_degree[0]-1]
 
+    #iterate through every possible color
     for color in range(start,max_color+1):
 
         skip = 0
+
+        #we found a valid nc color
         if(color != mc):
             temp_nc_lst[current_degree[0]] = color
         else:
             skip = 1
 
         if(not skip):
+            #nc list is complete and ball with vertice can be generated
             if (current_degree[0] == (degree-1)):
                 vertice_ = VerticeC()
                 vertice_.Ball = BallC()
@@ -65,9 +72,11 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
     
                 NH_graph.VerticeList.append(vertice_)
 
+            #nc list is not yet complete
             else:
                 rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
 
+        #we reached the maximum possible color
         if (color == max_color):
             current_degree[0] -= 1
             break
@@ -85,10 +94,11 @@ def generate_adjacents(NHGraph):
     for vertice in range(len(NHGraph.VerticeList)):
         current_ball = NHGraph.VerticeList[vertice].Ball
 
-        # now compare every other ball to this ball
+        #now compare every other ball to this ball
         for nb in range(len(NHGraph.VerticeList)):
             comparison(NHGraph, current_ball, nb)
             
+#this checks if (my ball)mc is in (other ball)nc, and (my ball)nc is in (other ball)mc
 def comparison(NHGraph, current_ball, nb):
     for nc in range(len(NHGraph.VerticeList[nb].Ball.MyLocalView.NeighborColors)):
 
@@ -113,7 +123,7 @@ def can_be_adjacent(Ball1, Ball2):
     return 0
 '''
 
-#Set initial color of the Vertice AF
+#Set initial color of the Vertice to MyColor of the Ball
 def color_vertices(NHGraph):
     for vertice in range(len(NHGraph.VerticeList)):
         NHGraph.VerticeList[vertice].AF = NHGraph.VerticeList[vertice].Ball.MyLocalView.MyColor
