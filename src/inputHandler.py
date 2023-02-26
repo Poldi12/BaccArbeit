@@ -49,13 +49,13 @@ def handle_input(inputparam):
     except IndexError:
         inputparam.Solver = 'cd'
 
-    #select Output Graph
+    #select print output to file
     try:
         inputparam.OutputFile = sys.argv[5]
     except IndexError:
         inputparam.OutputFile = 'nooutputprovided!.txt'
 
-    #Select if whole graph should be printed
+    #select if whole graph should be printed
     try:
         printGraph = sys.argv[6]
         if(printGraph == 'y'):

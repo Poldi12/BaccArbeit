@@ -15,14 +15,14 @@ class BallC:
     Adjacents = []
     
 @dataclass
-class VerticeC:
+class vertexC:
     Ball: BallC = None
     AF: int = None
-    PositionInVerticeList: int = None
+    PositionInvertexList: int = None
 
 @dataclass
 class NHGraphC:
-    VerticeList = []
+    vertexList = []
     SAT: int = None
     Valid: bool = False
     Solution = []
