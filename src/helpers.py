@@ -108,7 +108,11 @@ def print_graph_infos(NHGraph, m , d):
 #prints whole nh graph to file
 def print_whole_graph(NHGraph, filename):
 
-    file = open(filename+'-Graph', 'w')
+    # changes the filename accordingly and opens the file
+    size = len(filename)
+    replacement = '-Graph.txt'
+    filename = filename.replace(filename[size -4:], replacement)
+    file = open(filename, 'w')
 
     file.write('Neighborhood Graph with initial coloring:')
     file.write('\n')

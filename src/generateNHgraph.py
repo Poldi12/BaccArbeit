@@ -40,9 +40,10 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
 
 def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
 
-    #needed for offsets
     current_degree[0] += 1
     start = 1
+
+    #start at the right color
     if(current_degree[0] != 0):
         start = temp_nc_lst[current_degree[0]-1]
 
@@ -75,6 +76,61 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
             #nc list is not yet complete
             else:
                 rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+
+        #we reached the maximum possible color
+        if (color == max_color):
+            current_degree[0] -= 1
+            break
+        
+    NH_graph.Valid = True
+
+
+#a second version, generating balls with no duplicate nc
+def rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
+
+    current_degree[0] += 1
+    start = 1
+
+    #start at the right color
+    if(current_degree[0] != 0):
+        start = temp_nc_lst[current_degree[0]-1]
+
+    #iterate through every possible color
+    for color in range(start,max_color+1):
+
+        duplicate_flag = False
+        skip = 0
+
+        #we found a valid nc color
+        if(color != mc):
+            if(temp_nc_lst[current_degree[0]-1] == color):
+                duplicate_flag = True
+            temp_nc_lst[current_degree[0]] = color
+        else:
+            skip = 1
+
+        if(not skip):
+            #we have duplicate nc colors, so we dont generate that node
+            if(duplicate_flag):
+                continue
+
+            #nc list is complete and ball with vertex can be generated
+            elif (current_degree[0] == (degree-1)):
+                vertex_ = vertexC()
+                vertex_.Ball = BallC()
+                vertex_.Ball.MyLocalView = LocalViewC()
+                vertex_.Ball.MyLocalView.NeighborColors = []
+                vertex_.Ball.Adjacents = []
+                vertex_.Ball.MyLocalView.MyColor = mc
+
+                for i in range(len(temp_nc_lst)):
+                    vertex_.Ball.MyLocalView.NeighborColors.append(temp_nc_lst[i])
+    
+                NH_graph.vertexList.append(vertex_)
+
+            #nc list is not yet complete
+            else:
+                rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
 
         #we reached the maximum possible color
         if (color == max_color):

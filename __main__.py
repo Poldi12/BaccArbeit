@@ -31,7 +31,7 @@ if(return_value == 0):
 
 if(return_value == 0):
     # only print to outputfile if whole graph is requested and a path is provided
-    if(input.PrintGraph and (input.OutputFile !='nooutputprovided!.txt')):
+    if(input.PrintGraph):
         return_value += helpers.print_whole_graph(NH_graph_reference, input.OutputFile)
 
 if(return_value == 0):

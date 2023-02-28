@@ -45,12 +45,11 @@ The Terminal output will give you information about the progress of the graph ge
 
 Depending if you set the input argument [?], there will be 1 or 2 output files. In the first, which will have the exact name as you specified in the [p] argument you passed. It will contain all the infos listed in the terminal regarding the graph and
 output coloring.
-The second file have "-Graph" attached to the output file name and contain the graph itself.
+The second file has "-Graph" attached to the output file name and contains the graph itself.
 
 ## Misc for myself
 
-todo: duplicate im generate herausfiltern (als 2. option angeben, original auch drinnen lassen)
-      output print variable names according to naming convention used in paper
+todo: output print variable names according to naming convention used in paper
       
 
 might do:
