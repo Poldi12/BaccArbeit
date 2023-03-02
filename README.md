@@ -51,7 +51,6 @@ The second file has "-Graph" attached to the output file name and contains the g
 
 todo: output print variable names according to naming convention used in paper
       
-
 might do:
       >graphisches darstellen mit networkx?
       >färbung mit mehr als einer Runde?

@@ -21,7 +21,7 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
             current_degree = [-1] #has to be object, becaus pass by reference
             
             #rekursiveley add the right nc to nc list
-            rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+            rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
 
     assign_position_in_vertexList(NH_graph)
 
@@ -103,9 +103,11 @@ def rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
 
         #we found a valid nc color
         if(color != mc):
+            #check for duplicate colors
             if(temp_nc_lst[current_degree[0]-1] == color):
                 duplicate_flag = True
-            temp_nc_lst[current_degree[0]] = color
+            else:    
+                temp_nc_lst[current_degree[0]] = color
         else:
             skip = 1
 
