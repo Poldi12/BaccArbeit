@@ -5,6 +5,7 @@ from src.dataclassesGraph import *
 def validation(NHGraph):
 
     NHGraph.MaxColorOutput = 0
+    
     for vertex in range(len(NHGraph.vertexList)):
         for adjacent in range(len(NHGraph.vertexList[vertex].Ball.Adjacents)):
 
@@ -15,5 +16,6 @@ def validation(NHGraph):
             #check vertex coloring for correctness
             if(NHGraph.vertexList[vertex].AF == NHGraph.vertexList[vertex].Ball.Adjacents[adjacent].AF):
                 NHGraph.Valid = False
+                break
 
     return 0

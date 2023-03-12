@@ -6,13 +6,14 @@ mc: 1
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
-number_adjacents:10
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -21,13 +22,14 @@ mc: 1
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:10
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -36,13 +38,14 @@ mc: 1
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:10
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -51,10 +54,30 @@ mc: 1
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 1 3 4 
-number_adjacents:7
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+number_adjacents:11
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 6 
+ cba mc: 6 nc: 1 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:11
 vertex_ausgabefaerbung:1
 
 mc: 2
@@ -63,13 +86,14 @@ mc: 2
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
-number_adjacents:10
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -78,11 +102,14 @@ mc: 2
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
-number_adjacents:8
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -91,11 +118,14 @@ mc: 2
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
-number_adjacents:8
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -104,10 +134,30 @@ mc: 2
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:7
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+number_adjacents:11
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 6 
+ cba mc: 6 nc: 2 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:11
 vertex_ausgabefaerbung:2
 
 mc: 3
@@ -116,11 +166,14 @@ mc: 3
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
-number_adjacents:8
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -129,11 +182,14 @@ mc: 3
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
-number_adjacents:8
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -142,11 +198,14 @@ mc: 3
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:8
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -155,10 +214,30 @@ mc: 3
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:7
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:11
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 6 
+ cba mc: 6 nc: 3 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:11
 vertex_ausgabefaerbung:3
 
 mc: 4
@@ -167,11 +246,14 @@ mc: 4
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
-number_adjacents:8
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -180,11 +262,14 @@ mc: 4
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
-number_adjacents:8
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -193,11 +278,14 @@ mc: 4
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:8
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -206,10 +294,30 @@ mc: 4
  cba mc: 5 nc: 1 4 
  cba mc: 5 nc: 2 4 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
  cba mc: 5 nc: 1 2 4 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:7
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:11
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 6 
+ cba mc: 6 nc: 4 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:11
 vertex_ausgabefaerbung:4
 
 mc: 5
@@ -218,11 +326,14 @@ mc: 5
  cba mc: 1 nc: 2 5 
  cba mc: 1 nc: 3 5 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
-number_adjacents:8
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -231,11 +342,14 @@ mc: 5
  cba mc: 2 nc: 1 5 
  cba mc: 2 nc: 3 5 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
-number_adjacents:8
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -244,11 +358,14 @@ mc: 5
  cba mc: 3 nc: 1 5 
  cba mc: 3 nc: 2 5 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
  cba mc: 3 nc: 1 2 5 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:8
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -257,12 +374,111 @@ mc: 5
  cba mc: 4 nc: 1 5 
  cba mc: 4 nc: 2 5 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
  cba mc: 4 nc: 1 2 5 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:8
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:11
 vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 6 
+ cba mc: 6 nc: 5 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:11
+vertex_ausgabefaerbung:5
+
+mc: 6
+ nc: 1 
+ cba mc: 1 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+number_adjacents:11
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 2 
+ cba mc: 2 nc: 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+number_adjacents:11
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 3 
+ cba mc: 3 nc: 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:11
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 4 
+ cba mc: 4 nc: 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:11
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 5 
+ cba mc: 5 nc: 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:11
+vertex_ausgabefaerbung:6
 
 mc: 1
  nc: 2 3 
@@ -271,22 +487,24 @@ mc: 1
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:20
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -296,22 +514,24 @@ mc: 1
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:20
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -321,19 +541,51 @@ mc: 1
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 1 3 4 
-number_adjacents:17
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 2 6 
+ cba mc: 2 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -343,22 +595,24 @@ mc: 1
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:20
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -368,19 +622,51 @@ mc: 1
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 1 3 4 
-number_adjacents:17
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 3 6 
+ cba mc: 3 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -390,19 +676,78 @@ mc: 1
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 1 3 4 
-number_adjacents:17
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 4 6 
+ cba mc: 4 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:22
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 5 6 
+ cba mc: 5 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:1
 
 mc: 2
@@ -412,20 +757,24 @@ mc: 2
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
-number_adjacents:18
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -435,20 +784,24 @@ mc: 2
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
-number_adjacents:18
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -458,19 +811,51 @@ mc: 2
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:17
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 1 6 
+ cba mc: 1 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -480,18 +865,24 @@ mc: 2
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
-number_adjacents:16
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -501,17 +892,51 @@ mc: 2
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 3 6 
+ cba mc: 3 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:2
 
 mc: 2
@@ -521,17 +946,78 @@ mc: 2
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 4 6 
+ cba mc: 4 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:22
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 5 6 
+ cba mc: 5 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:2
 
 mc: 3
@@ -541,18 +1027,24 @@ mc: 3
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
-number_adjacents:16
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -562,18 +1054,24 @@ mc: 3
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:16
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -583,17 +1081,51 @@ mc: 3
  cba mc: 1 nc: 2 3 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 1 6 
+ cba mc: 1 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -603,18 +1135,24 @@ mc: 3
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:16
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -624,17 +1162,51 @@ mc: 3
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 2 6 
+ cba mc: 2 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:3
 
 mc: 3
@@ -644,17 +1216,78 @@ mc: 3
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 2 3 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 2 3 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 4 6 
+ cba mc: 4 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 5 6 
+ cba mc: 5 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:3
 
 mc: 4
@@ -664,18 +1297,24 @@ mc: 4
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
-number_adjacents:16
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -685,18 +1324,24 @@ mc: 4
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:16
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -706,17 +1351,51 @@ mc: 4
  cba mc: 1 nc: 2 4 
  cba mc: 1 nc: 3 4 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
  cba mc: 5 nc: 1 4 
  cba mc: 5 nc: 2 4 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
  cba mc: 1 nc: 2 3 4 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 5 nc: 1 2 4 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 1 6 
+ cba mc: 1 nc: 4 
+ cba mc: 6 nc: 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -726,18 +1405,24 @@ mc: 4
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:16
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -747,17 +1432,51 @@ mc: 4
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
  cba mc: 5 nc: 1 4 
  cba mc: 5 nc: 2 4 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 5 nc: 1 2 4 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 2 6 
+ cba mc: 2 nc: 4 
+ cba mc: 6 nc: 4 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:4
 
 mc: 4
@@ -767,17 +1486,78 @@ mc: 4
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
  cba mc: 5 nc: 1 4 
  cba mc: 5 nc: 2 4 
  cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
  cba mc: 5 nc: 1 2 4 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:15
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 3 6 
+ cba mc: 3 nc: 4 
+ cba mc: 6 nc: 4 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 5 6 
+ cba mc: 5 nc: 4 
+ cba mc: 6 nc: 4 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:4
 
 mc: 5
@@ -787,18 +1567,24 @@ mc: 5
  cba mc: 1 nc: 2 5 
  cba mc: 1 nc: 3 5 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
  cba mc: 2 nc: 1 5 
  cba mc: 2 nc: 3 5 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
-number_adjacents:16
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -808,18 +1594,24 @@ mc: 5
  cba mc: 1 nc: 2 5 
  cba mc: 1 nc: 3 5 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
  cba mc: 3 nc: 1 5 
  cba mc: 3 nc: 2 5 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 3 nc: 1 2 5 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:16
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -829,18 +1621,51 @@ mc: 5
  cba mc: 1 nc: 2 5 
  cba mc: 1 nc: 3 5 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
  cba mc: 4 nc: 1 5 
  cba mc: 4 nc: 2 5 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 1 6 
+ cba mc: 1 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:16
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -850,18 +1675,24 @@ mc: 5
  cba mc: 2 nc: 1 5 
  cba mc: 2 nc: 3 5 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
  cba mc: 3 nc: 1 5 
  cba mc: 3 nc: 2 5 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 3 nc: 1 2 5 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:16
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -871,18 +1702,51 @@ mc: 5
  cba mc: 2 nc: 1 5 
  cba mc: 2 nc: 3 5 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
  cba mc: 4 nc: 1 5 
  cba mc: 4 nc: 2 5 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 2 6 
+ cba mc: 2 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:16
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -892,19 +1756,349 @@ mc: 5
  cba mc: 3 nc: 1 5 
  cba mc: 3 nc: 2 5 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
  cba mc: 4 nc: 1 5 
  cba mc: 4 nc: 2 5 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
  cba mc: 3 nc: 1 2 5 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
  cba mc: 4 nc: 1 2 5 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:16
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
 vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 3 6 
+ cba mc: 3 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 4 6 
+ cba mc: 4 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:22
+vertex_ausgabefaerbung:5
+
+mc: 6
+ nc: 1 2 
+ cba mc: 1 nc: 6 
+ cba mc: 2 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 3 
+ cba mc: 1 nc: 6 
+ cba mc: 3 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 4 
+ cba mc: 1 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 5 
+ cba mc: 1 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 2 3 
+ cba mc: 2 nc: 6 
+ cba mc: 3 nc: 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 2 4 
+ cba mc: 2 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 2 5 
+ cba mc: 2 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 3 4 
+ cba mc: 3 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 3 5 
+ cba mc: 3 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 4 5 
+ cba mc: 4 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:22
+vertex_ausgabefaerbung:6
 
 mc: 1
  nc: 2 3 4 
@@ -914,31 +2108,34 @@ mc: 1
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:30
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+number_adjacents:33
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -949,28 +2146,72 @@ mc: 1
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 3 nc: 1 2 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 1 3 4 
-number_adjacents:27
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 2 3 6 
+ cba mc: 2 nc: 1 
+ cba mc: 3 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:33
 vertex_ausgabefaerbung:1
 
 mc: 1
@@ -981,649 +2222,1402 @@ mc: 1
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
  cba mc: 5 nc: 1 2 
  cba mc: 5 nc: 1 3 
  cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
  cba mc: 5 nc: 1 2 3 
  cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
  cba mc: 5 nc: 1 3 4 
-number_adjacents:27
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+number_adjacents:33
 vertex_ausgabefaerbung:1
 
 mc: 1
- nc: 2 3 4 
+ nc: 2 4 6 
  cba mc: 2 nc: 1 
- cba mc: 3 nc: 1 
  cba mc: 4 nc: 1 
+ cba mc: 6 nc: 1 
  cba mc: 2 nc: 1 3 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 1 5 
- cba mc: 3 nc: 1 2 
- cba mc: 3 nc: 1 4 
- cba mc: 3 nc: 1 5 
+ cba mc: 2 nc: 1 6 
  cba mc: 4 nc: 1 2 
  cba mc: 4 nc: 1 3 
  cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
  cba mc: 4 nc: 1 2 3 
  cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:30
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:33
 vertex_ausgabefaerbung:1
 
 mc: 1
+ nc: 2 5 6 
+ cba mc: 2 nc: 1 
+ cba mc: 5 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 1 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 3 4 5 
+ cba mc: 3 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 5 nc: 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 3 4 6 
+ cba mc: 3 nc: 1 
+ cba mc: 4 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 3 5 6 
+ cba mc: 3 nc: 1 
+ cba mc: 5 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 1 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:1
+
+mc: 1
+ nc: 4 5 6 
+ cba mc: 4 nc: 1 
+ cba mc: 5 nc: 1 
+ cba mc: 6 nc: 1 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 1 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 1 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 1 5 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:1
+
+mc: 2
+ nc: 1 3 4 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 1 3 5 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 5 nc: 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 1 3 6 
+ cba mc: 1 nc: 2 
+ cba mc: 3 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 1 4 5 
+ cba mc: 1 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 5 nc: 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 1 4 6 
+ cba mc: 1 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 1 5 6 
+ cba mc: 1 nc: 2 
+ cba mc: 5 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 2 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 3 4 5 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 5 nc: 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 3 4 6 
+ cba mc: 3 nc: 2 
+ cba mc: 4 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 3 5 6 
+ cba mc: 3 nc: 2 
+ cba mc: 5 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 3 nc: 1 2 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 2 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 2
+ nc: 4 5 6 
+ cba mc: 4 nc: 2 
+ cba mc: 5 nc: 2 
+ cba mc: 6 nc: 2 
+ cba mc: 4 nc: 1 2 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 2 6 
+ cba mc: 5 nc: 1 2 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 2 6 
+ cba mc: 6 nc: 1 2 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 2 5 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:2
+
+mc: 3
+ nc: 1 2 4 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 1 2 5 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 5 nc: 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 1 2 6 
+ cba mc: 1 nc: 3 
+ cba mc: 2 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 1 4 5 
+ cba mc: 1 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 5 nc: 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 1 4 6 
+ cba mc: 1 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 1 5 6 
+ cba mc: 1 nc: 3 
+ cba mc: 5 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 1 nc: 2 3 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 3 6 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 2 4 5 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 5 nc: 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 2 4 6 
+ cba mc: 2 nc: 3 
+ cba mc: 4 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 2 5 6 
+ cba mc: 2 nc: 3 
+ cba mc: 5 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 2 nc: 1 3 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 3 6 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 3
+ nc: 4 5 6 
+ cba mc: 4 nc: 3 
+ cba mc: 5 nc: 3 
+ cba mc: 6 nc: 3 
+ cba mc: 4 nc: 1 3 
+ cba mc: 4 nc: 2 3 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 3 6 
+ cba mc: 5 nc: 1 3 
+ cba mc: 5 nc: 2 3 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 3 6 
+ cba mc: 6 nc: 1 3 
+ cba mc: 6 nc: 2 3 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 3 5 
+ cba mc: 4 nc: 1 2 3 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 3 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 3 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:3
+
+mc: 4
+ nc: 1 2 3 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 1 2 5 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 5 nc: 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 1 2 6 
+ cba mc: 1 nc: 4 
+ cba mc: 2 nc: 4 
+ cba mc: 6 nc: 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
+ cba mc: 2 nc: 1 4 
+ cba mc: 2 nc: 3 4 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 1 3 5 
+ cba mc: 1 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 5 nc: 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 1 3 6 
+ cba mc: 1 nc: 4 
+ cba mc: 3 nc: 4 
+ cba mc: 6 nc: 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
+ cba mc: 3 nc: 1 4 
+ cba mc: 3 nc: 2 4 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 4 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:4
+
+mc: 4
+ nc: 1 5 6 
+ cba mc: 1 nc: 4 
+ cba mc: 5 nc: 4 
+ cba mc: 6 nc: 4 
+ cba mc: 1 nc: 2 4 
+ cba mc: 1 nc: 3 4 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 4 6 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 1 nc: 2 3 4 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:4
+
+mc: 4
  nc: 2 3 5 
- cba mc: 2 nc: 1 
- cba mc: 3 nc: 1 
- cba mc: 5 nc: 1 
- cba mc: 2 nc: 1 3 
- cba mc: 2 nc: 1 4 
- cba mc: 2 nc: 1 5 
- cba mc: 3 nc: 1 2 
- cba mc: 3 nc: 1 4 
- cba mc: 3 nc: 1 5 
- cba mc: 5 nc: 1 2 
- cba mc: 5 nc: 1 3 
- cba mc: 5 nc: 1 4 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 1 3 4 
-number_adjacents:27
-vertex_ausgabefaerbung:1
-
-mc: 1
- nc: 2 4 5 
- cba mc: 2 nc: 1 
- cba mc: 4 nc: 1 
- cba mc: 5 nc: 1 
- cba mc: 2 nc: 1 3 
- cba mc: 2 nc: 1 4 
- cba mc: 2 nc: 1 5 
- cba mc: 4 nc: 1 2 
- cba mc: 4 nc: 1 3 
- cba mc: 4 nc: 1 5 
- cba mc: 5 nc: 1 2 
- cba mc: 5 nc: 1 3 
- cba mc: 5 nc: 1 4 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 1 3 4 
-number_adjacents:27
-vertex_ausgabefaerbung:1
-
-mc: 2
- nc: 1 3 4 
- cba mc: 1 nc: 2 
- cba mc: 3 nc: 2 
- cba mc: 4 nc: 2 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 2 5 
- cba mc: 3 nc: 1 2 
- cba mc: 3 nc: 2 4 
- cba mc: 3 nc: 2 5 
- cba mc: 4 nc: 1 2 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 2 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
-number_adjacents:26
-vertex_ausgabefaerbung:2
-
-mc: 2
- nc: 1 3 5 
- cba mc: 1 nc: 2 
- cba mc: 3 nc: 2 
- cba mc: 5 nc: 2 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 2 5 
- cba mc: 3 nc: 1 2 
- cba mc: 3 nc: 2 4 
- cba mc: 3 nc: 2 5 
- cba mc: 5 nc: 1 2 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 2 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:25
-vertex_ausgabefaerbung:2
-
-mc: 2
- nc: 1 4 5 
- cba mc: 1 nc: 2 
- cba mc: 4 nc: 2 
- cba mc: 5 nc: 2 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 2 5 
- cba mc: 4 nc: 1 2 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 2 5 
- cba mc: 5 nc: 1 2 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 2 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:25
-vertex_ausgabefaerbung:2
-
-mc: 2
- nc: 1 3 4 
- cba mc: 1 nc: 2 
- cba mc: 3 nc: 2 
- cba mc: 4 nc: 2 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 2 5 
- cba mc: 3 nc: 1 2 
- cba mc: 3 nc: 2 4 
- cba mc: 3 nc: 2 5 
- cba mc: 4 nc: 1 2 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 2 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
-number_adjacents:26
-vertex_ausgabefaerbung:2
-
-mc: 2
- nc: 1 3 5 
- cba mc: 1 nc: 2 
- cba mc: 3 nc: 2 
- cba mc: 5 nc: 2 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 2 5 
- cba mc: 3 nc: 1 2 
- cba mc: 3 nc: 2 4 
- cba mc: 3 nc: 2 5 
- cba mc: 5 nc: 1 2 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 2 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 2 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:25
-vertex_ausgabefaerbung:2
-
-mc: 2
- nc: 1 4 5 
- cba mc: 1 nc: 2 
- cba mc: 4 nc: 2 
- cba mc: 5 nc: 2 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 2 5 
- cba mc: 4 nc: 1 2 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 2 5 
- cba mc: 5 nc: 1 2 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 2 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 2 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:25
-vertex_ausgabefaerbung:2
-
-mc: 3
- nc: 1 2 4 
- cba mc: 1 nc: 3 
- cba mc: 2 nc: 3 
- cba mc: 4 nc: 3 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 3 5 
- cba mc: 2 nc: 1 3 
- cba mc: 2 nc: 3 4 
- cba mc: 2 nc: 3 5 
- cba mc: 4 nc: 1 3 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:24
-vertex_ausgabefaerbung:3
-
-mc: 3
- nc: 1 2 5 
- cba mc: 1 nc: 3 
- cba mc: 2 nc: 3 
- cba mc: 5 nc: 3 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 3 5 
- cba mc: 2 nc: 1 3 
- cba mc: 2 nc: 3 4 
- cba mc: 2 nc: 3 5 
- cba mc: 5 nc: 1 3 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 3 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:23
-vertex_ausgabefaerbung:3
-
-mc: 3
- nc: 1 4 5 
- cba mc: 1 nc: 3 
- cba mc: 4 nc: 3 
- cba mc: 5 nc: 3 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 3 5 
- cba mc: 4 nc: 1 3 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 3 5 
- cba mc: 5 nc: 1 3 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 3 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:23
-vertex_ausgabefaerbung:3
-
-mc: 3
- nc: 1 2 4 
- cba mc: 1 nc: 3 
- cba mc: 2 nc: 3 
- cba mc: 4 nc: 3 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 3 5 
- cba mc: 2 nc: 1 3 
- cba mc: 2 nc: 3 4 
- cba mc: 2 nc: 3 5 
- cba mc: 4 nc: 1 3 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:24
-vertex_ausgabefaerbung:3
-
-mc: 3
- nc: 1 2 5 
- cba mc: 1 nc: 3 
- cba mc: 2 nc: 3 
- cba mc: 5 nc: 3 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 3 5 
- cba mc: 2 nc: 1 3 
- cba mc: 2 nc: 3 4 
- cba mc: 2 nc: 3 5 
- cba mc: 5 nc: 1 3 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 3 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 3 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:23
-vertex_ausgabefaerbung:3
-
-mc: 3
- nc: 1 4 5 
- cba mc: 1 nc: 3 
- cba mc: 4 nc: 3 
- cba mc: 5 nc: 3 
- cba mc: 1 nc: 2 3 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 3 5 
- cba mc: 4 nc: 1 3 
- cba mc: 4 nc: 2 3 
- cba mc: 4 nc: 3 5 
- cba mc: 5 nc: 1 3 
- cba mc: 5 nc: 2 3 
- cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 3 
- cba mc: 4 nc: 1 3 5 
- cba mc: 5 nc: 1 2 3 
- cba mc: 5 nc: 1 3 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:23
-vertex_ausgabefaerbung:3
-
-mc: 4
- nc: 1 2 3 
- cba mc: 1 nc: 4 
  cba mc: 2 nc: 4 
  cba mc: 3 nc: 4 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 4 5 
+ cba mc: 5 nc: 4 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 3 nc: 4 6 
+ cba mc: 5 nc: 1 4 
+ cba mc: 5 nc: 2 4 
+ cba mc: 5 nc: 3 4 
+ cba mc: 5 nc: 4 6 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:24
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 4 
+ cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 4 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
 vertex_ausgabefaerbung:4
 
 mc: 4
- nc: 1 2 5 
- cba mc: 1 nc: 4 
+ nc: 2 3 6 
  cba mc: 2 nc: 4 
- cba mc: 5 nc: 4 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 4 5 
+ cba mc: 3 nc: 4 
+ cba mc: 6 nc: 4 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 4 5 
- cba mc: 5 nc: 1 4 
- cba mc: 5 nc: 2 4 
- cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 1 3 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:23
-vertex_ausgabefaerbung:4
-
-mc: 4
- nc: 1 3 5 
- cba mc: 1 nc: 4 
- cba mc: 3 nc: 4 
- cba mc: 5 nc: 4 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 4 5 
+ cba mc: 2 nc: 4 6 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 4 5 
- cba mc: 5 nc: 1 4 
- cba mc: 5 nc: 2 4 
- cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 3 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
+ cba mc: 2 nc: 1 3 4 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
- cba mc: 5 nc: 1 2 4 
- cba mc: 5 nc: 1 3 4 
- cba mc: 5 nc: 2 3 4 
-number_adjacents:23
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
 vertex_ausgabefaerbung:4
 
 mc: 4
- nc: 1 2 3 
- cba mc: 1 nc: 4 
+ nc: 2 5 6 
  cba mc: 2 nc: 4 
- cba mc: 3 nc: 4 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 4 5 
+ cba mc: 5 nc: 4 
+ cba mc: 6 nc: 4 
  cba mc: 2 nc: 1 4 
  cba mc: 2 nc: 3 4 
  cba mc: 2 nc: 4 5 
- cba mc: 3 nc: 1 4 
- cba mc: 3 nc: 2 4 
- cba mc: 3 nc: 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:24
-vertex_ausgabefaerbung:4
-
-mc: 4
- nc: 1 2 5 
- cba mc: 1 nc: 4 
- cba mc: 2 nc: 4 
- cba mc: 5 nc: 4 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 4 5 
- cba mc: 2 nc: 1 4 
- cba mc: 2 nc: 3 4 
- cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 4 6 
  cba mc: 5 nc: 1 4 
  cba mc: 5 nc: 2 4 
  cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 5 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
  cba mc: 2 nc: 1 3 4 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 4 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 5 nc: 1 2 4 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:23
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
 vertex_ausgabefaerbung:4
 
 mc: 4
- nc: 1 3 5 
- cba mc: 1 nc: 4 
+ nc: 3 5 6 
  cba mc: 3 nc: 4 
  cba mc: 5 nc: 4 
- cba mc: 1 nc: 2 4 
- cba mc: 1 nc: 3 4 
- cba mc: 1 nc: 4 5 
+ cba mc: 6 nc: 4 
  cba mc: 3 nc: 1 4 
  cba mc: 3 nc: 2 4 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 4 6 
  cba mc: 5 nc: 1 4 
  cba mc: 5 nc: 2 4 
  cba mc: 5 nc: 3 4 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 4 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 5 nc: 4 6 
+ cba mc: 6 nc: 1 4 
+ cba mc: 6 nc: 2 4 
+ cba mc: 6 nc: 3 4 
+ cba mc: 6 nc: 4 5 
  cba mc: 3 nc: 1 2 4 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 4 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 4 5 6 
  cba mc: 5 nc: 1 2 4 
  cba mc: 5 nc: 1 3 4 
+ cba mc: 5 nc: 1 4 6 
  cba mc: 5 nc: 2 3 4 
-number_adjacents:23
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+ cba mc: 6 nc: 1 2 4 
+ cba mc: 6 nc: 1 3 4 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 4 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
 vertex_ausgabefaerbung:4
 
 mc: 5
@@ -1634,25 +3628,34 @@ mc: 5
  cba mc: 1 nc: 2 5 
  cba mc: 1 nc: 3 5 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
  cba mc: 2 nc: 1 5 
  cba mc: 2 nc: 3 5 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
  cba mc: 3 nc: 1 5 
  cba mc: 3 nc: 2 5 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
- cba mc: 1 nc: 2 3 5 
- cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 3 nc: 1 2 5 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
-number_adjacents:24
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:33
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -1663,25 +3666,72 @@ mc: 5
  cba mc: 1 nc: 2 5 
  cba mc: 1 nc: 3 5 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
  cba mc: 2 nc: 1 5 
  cba mc: 2 nc: 3 5 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
  cba mc: 4 nc: 1 5 
  cba mc: 4 nc: 2 5 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 1 2 6 
+ cba mc: 1 nc: 5 
+ cba mc: 2 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
+ cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:24
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -1692,25 +3742,110 @@ mc: 5
  cba mc: 1 nc: 2 5 
  cba mc: 1 nc: 3 5 
  cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
  cba mc: 3 nc: 1 5 
  cba mc: 3 nc: 2 5 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
  cba mc: 4 nc: 1 5 
  cba mc: 4 nc: 2 5 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 1 3 6 
+ cba mc: 1 nc: 5 
+ cba mc: 3 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
  cba mc: 1 nc: 2 3 5 
  cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 3 nc: 1 2 5 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 1 4 6 
+ cba mc: 1 nc: 5 
+ cba mc: 4 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 1 nc: 2 5 
+ cba mc: 1 nc: 3 5 
+ cba mc: 1 nc: 4 5 
+ cba mc: 1 nc: 5 6 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
+ cba mc: 1 nc: 2 3 5 
+ cba mc: 1 nc: 2 4 5 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 5 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
  cba mc: 4 nc: 1 2 5 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:24
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
 vertex_ausgabefaerbung:5
 
 mc: 5
@@ -1721,24 +3856,527 @@ mc: 5
  cba mc: 2 nc: 1 5 
  cba mc: 2 nc: 3 5 
  cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
  cba mc: 3 nc: 1 5 
  cba mc: 3 nc: 2 5 
  cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
  cba mc: 4 nc: 1 5 
  cba mc: 4 nc: 2 5 
  cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
  cba mc: 2 nc: 1 3 5 
  cba mc: 2 nc: 1 4 5 
- cba mc: 2 nc: 1 3 5 
- cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
  cba mc: 3 nc: 1 2 5 
  cba mc: 3 nc: 1 4 5 
- cba mc: 3 nc: 1 2 5 
- cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
  cba mc: 4 nc: 1 2 5 
  cba mc: 4 nc: 1 3 5 
- cba mc: 4 nc: 1 2 5 
- cba mc: 4 nc: 1 3 5 
-number_adjacents:24
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:33
 vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 2 3 6 
+ cba mc: 2 nc: 5 
+ cba mc: 3 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 2 4 6 
+ cba mc: 2 nc: 5 
+ cba mc: 4 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 2 nc: 1 5 
+ cba mc: 2 nc: 3 5 
+ cba mc: 2 nc: 4 5 
+ cba mc: 2 nc: 5 6 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
+ cba mc: 2 nc: 1 3 5 
+ cba mc: 2 nc: 1 4 5 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 5 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:5
+
+mc: 5
+ nc: 3 4 6 
+ cba mc: 3 nc: 5 
+ cba mc: 4 nc: 5 
+ cba mc: 6 nc: 5 
+ cba mc: 3 nc: 1 5 
+ cba mc: 3 nc: 2 5 
+ cba mc: 3 nc: 4 5 
+ cba mc: 3 nc: 5 6 
+ cba mc: 4 nc: 1 5 
+ cba mc: 4 nc: 2 5 
+ cba mc: 4 nc: 3 5 
+ cba mc: 4 nc: 5 6 
+ cba mc: 6 nc: 1 5 
+ cba mc: 6 nc: 2 5 
+ cba mc: 6 nc: 3 5 
+ cba mc: 6 nc: 4 5 
+ cba mc: 3 nc: 1 2 5 
+ cba mc: 3 nc: 1 4 5 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 5 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 5 
+ cba mc: 4 nc: 1 3 5 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 5 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 6 nc: 1 2 5 
+ cba mc: 6 nc: 1 3 5 
+ cba mc: 6 nc: 1 4 5 
+ cba mc: 6 nc: 2 3 5 
+ cba mc: 6 nc: 2 4 5 
+ cba mc: 6 nc: 3 4 5 
+number_adjacents:33
+vertex_ausgabefaerbung:5
+
+mc: 6
+ nc: 1 2 3 
+ cba mc: 1 nc: 6 
+ cba mc: 2 nc: 6 
+ cba mc: 3 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 2 4 
+ cba mc: 1 nc: 6 
+ cba mc: 2 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 2 5 
+ cba mc: 1 nc: 6 
+ cba mc: 2 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 3 4 
+ cba mc: 1 nc: 6 
+ cba mc: 3 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 3 5 
+ cba mc: 1 nc: 6 
+ cba mc: 3 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 1 4 5 
+ cba mc: 1 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 1 nc: 2 6 
+ cba mc: 1 nc: 3 6 
+ cba mc: 1 nc: 4 6 
+ cba mc: 1 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 1 nc: 2 3 6 
+ cba mc: 1 nc: 2 4 6 
+ cba mc: 1 nc: 2 5 6 
+ cba mc: 1 nc: 3 4 6 
+ cba mc: 1 nc: 3 5 6 
+ cba mc: 1 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 2 3 4 
+ cba mc: 2 nc: 6 
+ cba mc: 3 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 2 3 5 
+ cba mc: 2 nc: 6 
+ cba mc: 3 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 2 4 5 
+ cba mc: 2 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 2 nc: 1 6 
+ cba mc: 2 nc: 3 6 
+ cba mc: 2 nc: 4 6 
+ cba mc: 2 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 2 nc: 1 3 6 
+ cba mc: 2 nc: 1 4 6 
+ cba mc: 2 nc: 1 5 6 
+ cba mc: 2 nc: 3 4 6 
+ cba mc: 2 nc: 3 5 6 
+ cba mc: 2 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
+
+mc: 6
+ nc: 3 4 5 
+ cba mc: 3 nc: 6 
+ cba mc: 4 nc: 6 
+ cba mc: 5 nc: 6 
+ cba mc: 3 nc: 1 6 
+ cba mc: 3 nc: 2 6 
+ cba mc: 3 nc: 4 6 
+ cba mc: 3 nc: 5 6 
+ cba mc: 4 nc: 1 6 
+ cba mc: 4 nc: 2 6 
+ cba mc: 4 nc: 3 6 
+ cba mc: 4 nc: 5 6 
+ cba mc: 5 nc: 1 6 
+ cba mc: 5 nc: 2 6 
+ cba mc: 5 nc: 3 6 
+ cba mc: 5 nc: 4 6 
+ cba mc: 3 nc: 1 2 6 
+ cba mc: 3 nc: 1 4 6 
+ cba mc: 3 nc: 1 5 6 
+ cba mc: 3 nc: 2 4 6 
+ cba mc: 3 nc: 2 5 6 
+ cba mc: 3 nc: 4 5 6 
+ cba mc: 4 nc: 1 2 6 
+ cba mc: 4 nc: 1 3 6 
+ cba mc: 4 nc: 1 5 6 
+ cba mc: 4 nc: 2 3 6 
+ cba mc: 4 nc: 2 5 6 
+ cba mc: 4 nc: 3 5 6 
+ cba mc: 5 nc: 1 2 6 
+ cba mc: 5 nc: 1 3 6 
+ cba mc: 5 nc: 1 4 6 
+ cba mc: 5 nc: 2 3 6 
+ cba mc: 5 nc: 2 4 6 
+ cba mc: 5 nc: 3 4 6 
+number_adjacents:33
+vertex_ausgabefaerbung:6
 

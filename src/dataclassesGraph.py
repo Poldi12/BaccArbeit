@@ -24,7 +24,7 @@ class vertexC:
 class NHGraphC:
     vertexList = []
     SAT: int = None
-    Valid: bool = False
+    Valid: bool = True
     Solution = []
     MaxColorOutput: int = None
     LaufzeitAusgabefärbung: int = None

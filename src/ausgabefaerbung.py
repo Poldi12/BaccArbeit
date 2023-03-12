@@ -30,11 +30,12 @@ def af_SAT(NH_graph, max_color, solver_selected):
 
         #map new colors to graph and validate them
         assign_new_color_values(NH_graph, NH_graph.Solution)
-        validateNHGraph.validation(NH_graph)
     else:
         NH_graph.SAT = 0
 
     solver.delete()
+
+    validateNHGraph.validation(NH_graph)
 
     et = time.process_time()
     NH_graph.LaufzeitAusgabefärbung = et - st
@@ -72,8 +73,13 @@ def build_cnf_for_af(NH_graph, solver, max_color):
                 vertex_enc2 = encode_position_with_color(vertex, color2, max_color)
 
                 solver.add_clause([-vertex_enc1, -vertex_enc2])
-            
-
+    
+    #Nodes with color <= q can hold their colors
+    for vertex in range(len(NH_graph.vertexList)):
+        if(NH_graph.vertexList[vertex].AF <= max_color):
+            vertex_keep = encode_position_with_color(vertex, NH_graph.vertexList[vertex].AF, max_color)
+            solver.add_clause([vertex_keep])
+    
 
 def encode_position_with_color(variable, color, max_color):
 

@@ -49,8 +49,10 @@ The second file has "-Graph" attached to the output file name and contains the g
 
 ## Misc for myself
 
-todo: output print variable names according to naming convention used in paper
+todo: 
+>output print variable names according to naming convention used in paper
+>additional cnf clauses as stated in sheet
       
 might do:
-      >graphisches darstellen mit networkx?
-      >färbung mit mehr als einer Runde?
+>graphisches darstellen mit networkx?
+>färbung mit mehr als einer Runde?

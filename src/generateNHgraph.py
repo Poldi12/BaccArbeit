@@ -10,24 +10,24 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
 
     st = time.process_time()
 
-    #generate for every ball a nc list
+    #generate balls for every degree and every starting color within that degree
     for degree in range(1, max_degree+1):
         for mc in range(1,max_color+1):
             temp_nc_lst = []
 
-            #fill the nc list with start values (-1)
+            #fill the nc list with -1
             for i in range(degree):
                 temp_nc_lst.append(-1)
             current_degree = [-1] #has to be object, becaus pass by reference
             
-            #rekursiveley add the right nc to nc list
+            #rekursiveley add the right nc to nc list and generate ball
             rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
 
     assign_position_in_vertexList(NH_graph)
 
     generate_adjacents(NH_graph)
 
-    color_vertexs(NH_graph)
+    color_vertices(NH_graph)
 
     et = time.process_time()
     NH_graph.LaufzeitGenerateGraph = (et - st)
@@ -81,8 +81,6 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
         if (color == max_color):
             current_degree[0] -= 1
             break
-        
-    NH_graph.Valid = True
 
 
 #a second version, generating balls with no duplicate nc
@@ -94,30 +92,36 @@ def rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
     #start at the right color
     if(current_degree[0] != 0):
         start = temp_nc_lst[current_degree[0]-1]
-
+    
     #iterate through every possible color
     for color in range(start,max_color+1):
 
-        duplicate_flag = False
+        #duplicate_flag = False
         skip = 0
 
         #we found a valid nc color
-        if(color != mc):
+        if((color != mc) and (temp_nc_lst[current_degree[0]-1] != color)):
+            
+            temp_nc_lst[current_degree[0]] = color
+            '''
             #check for duplicate colors
-            if(temp_nc_lst[current_degree[0]-1] == color):
-                duplicate_flag = True
-            else:    
-                temp_nc_lst[current_degree[0]] = color
+            prev_color = -1
+            for position in range(len(temp_nc_lst)):
+                if(temp_nc_lst[position] == prev_color):
+                    duplicate_flag = True
+                prev_color = temp_nc_lst[position]
+            '''
         else:
             skip = 1
 
         if(not skip):
             #we have duplicate nc colors, so we dont generate that node
+            '''
             if(duplicate_flag):
                 continue
-
+            '''
             #nc list is complete and ball with vertex can be generated
-            elif (current_degree[0] == (degree-1)):
+            if (current_degree[0] == (degree-1)):
                 vertex_ = vertexC()
                 vertex_.Ball = BallC()
                 vertex_.Ball.MyLocalView = LocalViewC()
@@ -139,7 +143,6 @@ def rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
             current_degree[0] -= 1
             break
         
-    NH_graph.Valid = True
         
 #Sets Position in vertexList, which we need for clororing with SAT-Solver
 def assign_position_in_vertexList(NHGraph):
@@ -182,6 +185,6 @@ def can_be_adjacent(Ball1, Ball2):
 '''
 
 #Set initial color of the vertex to MyColor of the Ball
-def color_vertexs(NHGraph):
+def color_vertices(NHGraph):
     for vertex in range(len(NHGraph.vertexList)):
         NHGraph.vertexList[vertex].AF = NHGraph.vertexList[vertex].Ball.MyLocalView.MyColor
