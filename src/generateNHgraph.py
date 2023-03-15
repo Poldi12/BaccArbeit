@@ -4,7 +4,7 @@ import copy
 from src.dataclassesGraph import *
 import time
 
-def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
+def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list, duplicates: bool):
     
     print("start generating Graph...")
 
@@ -21,7 +21,10 @@ def generate_NHGraph(max_color: int, max_degree: int, NH_graph: list):
             current_degree = [-1] #has to be object, becaus pass by reference
             
             #rekursiveley add the right nc to nc list and generate ball
-            rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+            if(duplicates):
+                rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
+            else:
+                rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc)
 
     assign_position_in_vertexList(NH_graph)
 
@@ -52,7 +55,7 @@ def rek_nc_add(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
 
         skip = 0
 
-        #we found a valid nc color
+        #we found a valid neighborhood color
         if(color != mc):
             temp_nc_lst[current_degree[0]] = color
         else:
@@ -101,25 +104,11 @@ def rek_nc_add_v2(temp_nc_lst, max_color, degree, current_degree, NH_graph, mc):
 
         #we found a valid nc color
         if((color != mc) and (temp_nc_lst[current_degree[0]-1] != color)):
-            
             temp_nc_lst[current_degree[0]] = color
-            '''
-            #check for duplicate colors
-            prev_color = -1
-            for position in range(len(temp_nc_lst)):
-                if(temp_nc_lst[position] == prev_color):
-                    duplicate_flag = True
-                prev_color = temp_nc_lst[position]
-            '''
         else:
             skip = 1
 
         if(not skip):
-            #we have duplicate nc colors, so we dont generate that node
-            '''
-            if(duplicate_flag):
-                continue
-            '''
             #nc list is complete and ball with vertex can be generated
             if (current_degree[0] == (degree-1)):
                 vertex_ = vertexC()

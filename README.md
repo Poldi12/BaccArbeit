@@ -41,17 +41,40 @@ The "src" folder contains all relevant source files. The first of two main-parts
 
 There are 2 output types: terminal and (optional) file.
 
-The Terminal output will give you information about the progress of the graph generation and output coloring. In between, you will also get some infos about the generated graph, number of cnf clauses generated and output coloring.
+The Terminal output will give you information about the following:
+
+Infos about the generated Graph:
+
+* Max_color_Generate_Graph("m"): maximum color occuring in my_color and neighborhood_color, as well as the first coloring of the
+* degree("d"): maximum number of neighbors, a node can have
+* number_balls: amount of balls generated
+* number total_adjacents: number of connections between balls 
+* Runtime GenerateGraph: runtime, the function needed to complete the graph
+
+Infos about the coloring(ausgabefaerbung) of the SATSolver:
+
+* Solver: the selected type of solver for the SATSolver
+* Max_color_Faerbung_input(q): maximum color, the solver tries to color the graph with
+* Max_color_Solution: maximum color in the solution
+* Number_of_CNF_clauses: amount of clauses generated for the solver
+* SAT: if there exists a solution with that q
+* Solution: the solution for all the balls, beginning with the first ball in "output-Graph.txt"
+* Runtime Ausgabefaerbung: runtime, the function needed to complete
+* Valid Solution: if the solution of the sat solver is valid for the graph (seperate check)
+
+In between, you will also get some infos about the generated graph, number of cnf clauses generated and output coloring.
 
 Depending if you set the input argument [?], there will be 1 or 2 output files. In the first, which will have the exact name as you specified in the [p] argument you passed. It will contain all the infos listed in the terminal regarding the graph and
 output coloring.
-The second file has "-Graph" attached to the output file name and contains the graph itself.
+The second file has "-Graph" attached to the output file name and contains the following detailed infos about the graph:
+
+* mc: the value of "my color" of the node (combined with nc, they display the local view of a ball)
+* nc: the values of the "neighbor colors" of the node 
+* cba: the values of "my local view" of the adjacent balls
 
 ## Misc for myself
 
 todo: 
->output print variable names according to naming convention used in paper
->additional cnf clauses as stated in sheet
       
 might do:
 >graphisches darstellen mit networkx?

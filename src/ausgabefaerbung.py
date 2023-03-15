@@ -5,7 +5,7 @@ from src.dataclassesGraph import *
 import time
 import src.validateNHGraph as validateNHGraph
 
-def af_SAT(NH_graph, max_color, solver_selected):
+def af_SAT(NH_graph, max_color, solver_selected, additional_clauses):
 
     print("start coloring Graph...")
     
@@ -15,7 +15,7 @@ def af_SAT(NH_graph, max_color, solver_selected):
     solver = Solver(name = solver_selected)
     
     #cnf is generated
-    build_cnf_for_af(NH_graph, solver, max_color)
+    build_cnf_for_af(NH_graph, solver, max_color, additional_clauses)
 
     #get number of cnf clauses
     NH_graph.NOC = solver.nof_clauses()
@@ -30,12 +30,13 @@ def af_SAT(NH_graph, max_color, solver_selected):
 
         #map new colors to graph and validate them
         assign_new_color_values(NH_graph, NH_graph.Solution)
+
+        #check seperately, if the solution on the graph is valid
+        validateNHGraph.validation(NH_graph)
     else:
         NH_graph.SAT = 0
 
     solver.delete()
-
-    validateNHGraph.validation(NH_graph)
 
     et = time.process_time()
     NH_graph.LaufzeitAusgabefärbung = et - st
@@ -44,7 +45,7 @@ def af_SAT(NH_graph, max_color, solver_selected):
 
     return 0
 
-def build_cnf_for_af(NH_graph, solver, max_color):
+def build_cnf_for_af(NH_graph, solver, max_color, additional_clauses):
 
     #Neighbor not same color (-a1v-b1 -a2v-b2 ...)
     for vertex in range(len(NH_graph.vertexList)):
@@ -75,10 +76,11 @@ def build_cnf_for_af(NH_graph, solver, max_color):
                 solver.add_clause([-vertex_enc1, -vertex_enc2])
     
     #Nodes with color <= q can hold their colors
-    for vertex in range(len(NH_graph.vertexList)):
-        if(NH_graph.vertexList[vertex].AF <= max_color):
-            vertex_keep = encode_position_with_color(vertex, NH_graph.vertexList[vertex].AF, max_color)
-            solver.add_clause([vertex_keep])
+    if(additional_clauses):
+        for vertex in range(len(NH_graph.vertexList)):
+            if(NH_graph.vertexList[vertex].AF <= max_color):
+                vertex_keep = encode_position_with_color(vertex, NH_graph.vertexList[vertex].AF, max_color)
+                solver.add_clause([vertex_keep])
     
 
 def encode_position_with_color(variable, color, max_color):

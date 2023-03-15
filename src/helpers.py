@@ -29,16 +29,16 @@ def print_NHGraph(NHGraph, m , d, ma, file_name, used_solver):
         file.write('\n')
         file.write('    number total_adjacents: ' + str(NHGraph.TotAdj /2))
         file.write('\n')
-        file.write('    Laufzeit GenerateGraph: ' + str(NHGraph.LaufzeitGenerateGraph))
+        file.write('    Runtime GenerateGraph: ' + str(NHGraph.LaufzeitGenerateGraph))
         file.write('\n')
         file.write('\n')
         file.write('Ausgabefaerbung SATSolver Info:')
         file.write('\n')
         file.write('    Solver: ' + used_solver)
         file.write('\n')
-        file.write('    Max_color_Faerbung_input: ' + str(ma))
+        file.write('    Max_color_Faerbung_input(q): ' + str(ma))
         file.write('\n')
-        file.write('    Max_color_Faerbung_output: ' + str(NHGraph.MaxColorOutput))
+        file.write('    Max_color_Solution: ' + str(NHGraph.MaxColorOutput))
         file.write('\n')
         file.write('    Number_of_CNF_clauses: ' + str(NHGraph.NOC))
         file.write('\n')
@@ -46,12 +46,9 @@ def print_NHGraph(NHGraph, m , d, ma, file_name, used_solver):
         file.write('\n')
         file.write('    Solution: ' + str(NHGraph.Solution))
         file.write('\n')
-        file.write('    Laufzeit Ausgabefaerbung: ' + str(NHGraph.LaufzeitAusgabefärbung))
+        file.write('    Runtime Ausgabefaerbung: ' + str(NHGraph.LaufzeitAusgabefärbung))
         file.write('\n')
-        file.write('\n')
-        file.write('Other Infos:')
-        file.write('\n')
-        file.write('    Valid: ' + str(NHGraph.Valid))
+        file.write('    Valid Solution: ' + str(NHGraph.Valid))
         file.write('\n')
         
         file.close()
@@ -65,14 +62,13 @@ def print_NHGraph(NHGraph, m , d, ma, file_name, used_solver):
     print('====')
     print('Ausgabefaerbung SATSolver Info:')
     print('    Solver: ' + used_solver)
-    print('    Max_color_Faerbung_input: ' + str(ma))
-    print('    Max_color_Faerbung_output: ' + str(NHGraph.MaxColorOutput))
+    print('    Max_color_Faerbung_input(q): ' + str(ma))
+    print('    Max_color_Solution: ' + str(NHGraph.MaxColorOutput))
     print('    Number_of_CNF_clauses: ' + str(NHGraph.NOC))
     print('    SAT: ' + str(NHGraph.SAT))
     print('    Solution: ' + str(NHGraph.Solution))
-    print('    Laufzeit Ausgabefaerbung: ' + str(NHGraph.LaufzeitAusgabefärbung))
-    print('Other Infos:')
-    print('    Valid: ' + str(NHGraph.Valid))
+    print('    Runtime Ausgabefaerbung: ' + str(NHGraph.LaufzeitAusgabefärbung))
+    print('    Valid Solution: ' + str(NHGraph.Valid))
     
 #print networkx could be used to visualise graph, not implemented!
 
@@ -100,7 +96,7 @@ def print_graph_infos(NHGraph, m , d):
     print('Generated Graph Info:')
     print('    number_balls: ' + str(len(NHGraph.vertexList)))
     print('    number total_adjacents: ' + str(NHGraph.TotAdj /2))
-    print('    Laufzeit GenerateGraph: ' + str(NHGraph.LaufzeitGenerateGraph))
+    print('    Runtime GenerateGraph: ' + str(NHGraph.LaufzeitGenerateGraph))
     print()
 
     return 0
@@ -132,9 +128,9 @@ def print_whole_graph(NHGraph, filename):
             file.write('\n')
         file.write('number_adjacents:' + str(len(NHGraph.vertexList[i].Ball.Adjacents)))
         file.write('\n')
-        # vertexs
-        file.write('vertex_ausgabefaerbung:' + str(NHGraph.vertexList[i].AF))
-        file.write('\n')
+        # vertex
+        #file.write('vertex_ausgabefaerbung:' + str(NHGraph.vertexList[i].AF))
+        #file.write('\n')
         file.write('\n')
 
     return 0

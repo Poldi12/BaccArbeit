@@ -24,7 +24,7 @@ class vertexC:
 class NHGraphC:
     vertexList = []
     SAT: int = None
-    Valid: bool = True
+    Valid: bool = False
     Solution = []
     MaxColorOutput: int = None
     LaufzeitAusgabefärbung: int = None
@@ -41,3 +41,5 @@ class InputC:
     OutputFile = []
     PrintGraph = False
     Solver = []
+    Duplicates: bool = False
+    AdditionalClauses: bool = False

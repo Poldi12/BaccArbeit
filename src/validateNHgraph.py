@@ -5,7 +5,7 @@ from src.dataclassesGraph import *
 def validation(NHGraph):
 
     NHGraph.MaxColorOutput = 0
-    
+    NHGraph.Valid = True
     for vertex in range(len(NHGraph.vertexList)):
         for adjacent in range(len(NHGraph.vertexList[vertex].Ball.Adjacents)):
 
