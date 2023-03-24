@@ -59,14 +59,13 @@ def build_cnf_for_af(NH_graph, solver, max_color, additional_clauses):
                 adjacent_enc = encode_position_with_color(adjacent_position_in_vertex_list, color, max_color)
                 solver.add_clause([-vertex_enc, -adjacent_enc])
 
-    #Every node needs a color (a1va2va3)
-    for vertex in range(len(NH_graph.vertexList)):
+    #Every ball needs a color (a1va2va3)
         cnf_list: int = []
         for color in range(1, max_color +1):
             cnf_list.append(encode_position_with_color(vertex, color, max_color))
         solver.add_clause(cnf_list)
 
-    #Only 1 color per node (-a1v-a2 -a1v-a3 -a2v-a3)
+    #Only 1 color per ball (-a1v-a2 -a1v-a3 -a2v-a3)
         for color in range(1, max_color+1):
             for color2 in range(color +1,max_color+1):
 
@@ -75,7 +74,7 @@ def build_cnf_for_af(NH_graph, solver, max_color, additional_clauses):
 
                 solver.add_clause([-vertex_enc1, -vertex_enc2])
     
-    #Nodes with color <= q can hold their colors
+    #Balls with color <= q can hold their colors (a1, b2, c1)
     if(additional_clauses):
         for vertex in range(len(NH_graph.vertexList)):
             if(NH_graph.vertexList[vertex].AF <= max_color):
@@ -93,8 +92,7 @@ def decode_position_with_color(list, max_color):
 
     ball_color_tuple = []
     for entry in range(len(list)):
-        if (list[entry] < 0): continue
-        else:
+        if (list[entry] > 0):
             #position = list[entry] / max_color #not exact
             color = 1+(list[entry] % max_color)
             ball_color_tuple.append(color)

@@ -26,6 +26,8 @@ def handle_input(inputparam):
             print("du = duplicates? (no balls with duplicate neighborhood colors) 'y'=yes, 'n'= no, Default is yes")
             print("c = additional clauses? (balls with an initial coloring <q keep their color) 'y'=yes, 'n'=no, Default is no")
             print()
+            print("notice: m has to be bigger than d (m>d)")
+            print()
             print(".\main.exe [m] [d] [q] [s] [p] [?] [du] [c]")
             print()
             input("Press ENTER to exit program")
@@ -37,7 +39,7 @@ def handle_input(inputparam):
         inputparam.q = int(sys.argv[3])
 
         if (inputparam.d >= inputparam.m):
-            print("invalid input for generating valid Neighbourhoodgraph\n (Check max degree and number of colors input)")
+            print("invalid input for generating valid Neighbourhoodgraph\n (use -help)")
             return 1
 
     except IndexError:

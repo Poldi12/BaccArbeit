@@ -32,10 +32,15 @@ if(return_value == 0):
 if(return_value == 0):
     # only print to outputfile if whole graph is requested and a path is provided
     if(input.PrintGraph):
-        return_value += helpers.print_whole_graph(NH_graph_reference, input.OutputFile)
+        return_value += helpers.print_whole_graph(NH_graph_reference, input.OutputFile, 0)
 
 if(return_value == 0):
     return_value += ausgabefaerbung.af_SAT(NH_graph_reference, input.q, input.Solver, input.AdditionalClauses)
+
+if(return_value == 0):
+    # only print to outputfile if whole graph is requested and a path is provided
+    if(input.PrintGraph):
+        return_value += helpers.print_whole_graph(NH_graph_reference, input.OutputFile, 1)
 
 if(return_value == 0):
     helpers.print_NHGraph(NH_graph_reference, input.m , input.d, input.q, input.OutputFile, input.Solver)

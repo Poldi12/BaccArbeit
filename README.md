@@ -31,7 +31,9 @@ pip install python-sat
 pip install dataclasses
 ```
 
-One Option for Input Parameters in VSCode: select main.py -> select "Run and Debug" on left sidebar -> select "Start Debugging" on "Python:Current File"
+Notice: When executing the program, you have to provide arguments when calling main for proper usage, for more infos call it with -help
+
+One Option for Input Parameters in VSCode: use the provided launch.json file; select main.py -> select "Run and Debug" on left sidebar -> select "Start Debugging" on "Python:Current File"
 
 ## Structure
 
@@ -64,13 +66,15 @@ Infos about the coloring(ausgabefaerbung) of the SATSolver:
 
 In between, you will also get some infos about the generated graph, number of cnf clauses generated and output coloring.
 
-Depending if you set the input argument [?], there will be 1 or 2 output files. In the first, which will have the exact name as you specified in the [p] argument you passed. It will contain all the infos listed in the terminal regarding the graph and
+Depending if you set the input argument [?], there will be 1 or 3 output files. In the first, which will have the exact name as you specified in the [p] argument you passed. It will contain all the infos listed in the terminal regarding the graph and
 output coloring.
-The second file has "-Graph" attached to the output file name and contains the following detailed infos about the graph:
+The second and third files have "-Graph" and "-Graph2" attached to the output file name and contain the following detailed infos about the graph:
 
 * mc: the value of "my color" of the node (combined with nc, they display the local view of a ball)
 * nc: the values of the "neighbor colors" of the node 
 * cba: the values of "my local view" of the adjacent balls
+
+"-Graph" shows infos of the Graph after generation. "-Graph2" shows infos of the Graph afte recoloring with "ausgabefaerbung".
 
 ## Misc for myself
 

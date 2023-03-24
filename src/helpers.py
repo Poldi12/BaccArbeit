@@ -102,11 +102,14 @@ def print_graph_infos(NHGraph, m , d):
     return 0
 
 #prints whole nh graph to file
-def print_whole_graph(NHGraph, filename):
+def print_whole_graph(NHGraph, filename, number):
 
     # changes the filename accordingly and opens the file
     size = len(filename)
-    replacement = '-Graph.txt'
+    if(number):
+        replacement = '-Graph2.txt'
+    else:
+        replacement = '-Graph.txt'
     filename = filename.replace(filename[size -4:], replacement)
     file = open(filename, 'w')
 
@@ -129,8 +132,8 @@ def print_whole_graph(NHGraph, filename):
         file.write('number_adjacents:' + str(len(NHGraph.vertexList[i].Ball.Adjacents)))
         file.write('\n')
         # vertex
-        #file.write('vertex_ausgabefaerbung:' + str(NHGraph.vertexList[i].AF))
-        #file.write('\n')
+        file.write('vertex_ausgabefaerbung:' + str(NHGraph.vertexList[i].AF))
+        file.write('\n')
         file.write('\n')
 
     return 0
