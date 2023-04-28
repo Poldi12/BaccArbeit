@@ -40,7 +40,7 @@ if(return_value == 0):
 if(return_value == 0):
     # only print to outputfile if whole graph is requested and a path is provided
     if(input.PrintGraph):
-        return_value += helpers.print_whole_graph(NH_graph_reference, input.OutputFile, 1)
+        return_value += helpers.print_whole_graph_q(NH_graph_reference, input.OutputFile, 1)
 
 if(return_value == 0):
     helpers.print_NHGraph(NH_graph_reference, input.m , input.d, input.q, input.OutputFile, input.Solver)

@@ -3,6 +3,7 @@
 from src.dataclassesGraph import *
 import os
 
+#Print graph infos to file and infos from ausgabefaerbung to terminal (end of program)
 def print_NHGraph(NHGraph, m , d, ma, file_name, used_solver):
 
     #only print to output file if a path is provided
@@ -87,6 +88,7 @@ def print_networkx(all_balls_list, position):
     plt.show()
 '''
 
+#terminal infos after generate graph
 def print_graph_infos(NHGraph, m , d):
     print('INFO')
     print('====')
@@ -101,7 +103,7 @@ def print_graph_infos(NHGraph, m , d):
 
     return 0
 
-#prints whole nh graph to file
+#prints whole nh graph to file after generation
 def print_whole_graph(NHGraph, filename, number):
 
     # changes the filename accordingly and opens the file
@@ -134,6 +136,33 @@ def print_whole_graph(NHGraph, filename, number):
         # vertex
         file.write('vertex_ausgabefaerbung:' + str(NHGraph.vertexList[i].AF))
         file.write('\n')
+        file.write('\n')
+
+    return 0
+
+#print graph after (trying) coloring to file
+def print_whole_graph_q(NHGraph, filename, number):
+
+    # changes the filename accordingly and opens the file
+    size = len(filename)
+    if(number):
+        replacement = '-Graph2.txt'
+    else:
+        replacement = '-Graph.txt'
+    filename = filename.replace(filename[size -4:], replacement)
+    file = open(filename, 'w')
+
+    file.write('Note: if coloring is not SAT, the vertex coloring will be same as after graph generation (=mc)\n')
+    file.write('Neighborhood Graph with initial coloring:')
+    file.write('\n')
+    file.write('\n')
+    for i in range(len(NHGraph.vertexList)):
+        # ball with mc and ncs
+        file.write('mc: ' + str(NHGraph.vertexList[i].Ball.MyLocalView.MyColor) + ', nc: ')
+        for j in range(len(NHGraph.vertexList[i].Ball.MyLocalView.NeighborColors)):
+            file.write(str(NHGraph.vertexList[i].Ball.MyLocalView.NeighborColors[j]) + ' ')
+        # vertex
+        file.write(', vertex_ausgabefaerbung:' + str(NHGraph.vertexList[i].AF))
         file.write('\n')
 
     return 0
