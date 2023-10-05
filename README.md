@@ -82,8 +82,9 @@ The second file has "-Graph" attached to the output file name and contains the f
 
 "-Graph2" shows infos of the Graph afte recoloring with "ausgabefaerbung" without the "cba" infos and with the recolored vertices(vertex_ausgabefaerbung), if the coloring was SAT. If it was not SAT, the vertices will have the same color as after generation.
 
-## Misc for myself
+## Thesis about this project and its findings
 
-todo
-
->
+Title of the bachelors thesis: "Upper and Lower bounds for Distributed Graph Coloring via Sat Solvers"
+Author: Leopold Atzlesberger
+Supervisor: Yannic Maus
+Graz University of Technology

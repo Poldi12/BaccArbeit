@@ -5,15 +5,15 @@
 $waitingParam = 1200 ##20 min
 
 ## path to execution file and output files
-$execFile = "BaccArbeit\bin\main-15-03-23\main.exe"
-$outputFiles = "C:\Users\leopo\OneDrive\TuGraz\WS2022\bacc-arbeit\prakt.Teil\all-inst-test\"
+$execFile = "..\..\BaccArbeit\bin\main-15-03-23\main.exe"
+$outputFiles = "C:\Users\leopo\OneDrive\TuGraz\WS2022\bacc-arbeit\prakt.Teil\all-inst-test-no\"
 
 ## lower limit m, d
-$m_llim = 19
+$m_llim = 20
 $d_llim = 3
 
 ## upper limit m, d
-$m_ulim = 100
+$m_ulim = 21
 
 try
 {
@@ -23,7 +23,7 @@ try
 		for ($d = $d_llim; $d -lt $m; $d++)
 		{
 			$breakFlag = 0
-			for ($q = ($m - 4); $q -gt $d; $q--) ##set q upper limit
+			for ($q = ($m-16); $q -gt $d; $q--) ##set q upper limit
 			{
 				##output file name
 				$output_file = "$($m)-$($d)-$($q).txt"
@@ -35,7 +35,7 @@ try
 					$processOptions = @{
 						FilePath = $execFile
 						## change for different exe inputs
-						ArgumentList = "$m $d $q cd $($outputFiles)$($output_file) n n y"
+						ArgumentList = "$m $d $q cd $($outputFiles)$($output_file) n n n"
 					}
 					Write-Host "file $m $d $q"
 					$app = Start-Process @processOptions -WindowStyle Hidden -PassThru
